@@ -2,6 +2,7 @@ package csv
 
 import (
 	"encoding/csv"
+	"errors"
 	"github.com/kmacmcfarlane/csv-2-postgresql-go/schema"
 	"go/types"
 	"io"
@@ -11,15 +12,23 @@ import (
 type Parser struct {
 	reader *csv.Reader
 	firstRecord []string
+	schema *schema.Schema
 }
 
-func NewParser(reader io.Reader) Parser {
-	return Parser{
-		reader: csv.NewReader(reader)}
+func NewParser(reader io.Reader) *Parser {
+
+	csvReader := csv.NewReader(reader)
+
+	return &Parser{
+		reader: csvReader}
 }
 
 // ParseSchema reads the first two lines of the CSV file to determine header and column information
-func (p Parser) ParseSchema() (result schema.Schema, err error) {
+func (p *Parser) ParseSchema() (result schema.Schema, err error) {
+
+	if nil != p.schema {
+		return *p.schema, err
+	}
 
 	// Get the header line
 	headers, err := p.reader.Read()
@@ -33,25 +42,47 @@ func (p Parser) ParseSchema() (result schema.Schema, err error) {
 	// Get the next line to determine the type of each field
 	p.firstRecord, err = p.reader.Read() // save this first record to avoid having to re-init the reader somehow
 
+	if nil != err {
+		return result, err
+	}
+
 	result.Columns = make([]schema.Column, len(headers))
 	for i, value := range p.firstRecord {
 
+		columnType := p.ParseColumnType(value)
+
 		result.Columns[i] = schema.Column{
 			Name: headers[i],
-			Kind: p.ParseColumnType(value)}
+			Kind: columnType}
 	}
+
+	p.schema = &result
 
 	return result, err
 }
 
-//
-func (p Parser) Read() (result []string, err error) {
+// Read returns records one at a time. It will return io.EOF as err when there are no more records
+func (p *Parser) Read() (result []string, err error) {
 
-	return result, err
+	if nil == p.schema {
+		return result, errors.New("read called before parsing schema")
+	}
+
+	// Return the first record used during schema creation
+	if p.firstRecord != nil {
+
+		result := p.firstRecord
+
+		p.firstRecord = nil
+
+		return result, err
+	}
+
+	return p.reader.Read()
 }
 
 // Determine the primitive type of a given string value. Fall back to string if nothing else matches.
-func (p Parser) ParseColumnType(value string) types.BasicKind {
+func (p *Parser) ParseColumnType(value string) types.BasicKind {
 
 	// Signed ints
 	// TODO: could scan the table and see if the column can be UInt, but might affect performance negatively...

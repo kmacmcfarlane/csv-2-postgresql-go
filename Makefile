@@ -9,5 +9,5 @@ test_deps:
 build:
 	go build -o ./bin/csv-2-postgresql ./csv-2-postgresql
 
-test: test_deps
+test:
 	ginkgo -r ./

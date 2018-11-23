@@ -15,7 +15,7 @@ var _ = Describe("Schema", func() {
 	Describe("CSVParser", func(){
 
 		var (
-			parser csv.Parser
+			parser *csv.Parser
 		)
 
 		Describe("Parse a Line", func(){
@@ -334,13 +334,45 @@ var _ = Describe("Schema", func() {
 		Describe("Read", func(){
 			Context("Read the cached line after schema parse", func(){
 				It("Returns the cached line, then the second line", func(){
-					Fail("todo")
+
+					header := "isFoo,total\n"
+					line := "False,123.321\ntrue,500.005\n"
+
+					parser = CreateParser(header, line)
+
+					_, err := parser.ParseSchema()
+
+					Ω(err).Should(BeNil())
+
+					result1, err := parser.Read()
+
+					Ω(err).Should(BeNil())
+
+					Ω(len(result1)).Should(Equal(2))
+					Ω(result1[0]).Should(Equal("False"))
+					Ω(result1[1]).Should(Equal("123.321"))
+
+					result2, err := parser.Read()
+
+					Ω(err).Should(BeNil())
+
+					Ω(len(result2)).Should(Equal(2))
+					Ω(result2[0]).Should(Equal("true"))
+					Ω(result2[1]).Should(Equal("500.005"))
 				})
 			})
 
 			Context("Read a line before schema is parsed", func(){
-				It("Parses schema, then returns cached line, then second line", func(){
-					Fail("todo")
+				It("Returns an error", func(){
+
+					header := "isFoo,total\n"
+					line := "False,123.321\ntrue,500.005\n"
+
+					parser = CreateParser(header, line)
+
+					_, err := parser.Read()
+
+					Ω(err).ShouldNot(BeNil())
 				})
 			})
 		})
@@ -348,7 +380,7 @@ var _ = Describe("Schema", func() {
 })
 
 
-func CreateParser(header string, line string) csv.Parser {
+func CreateParser(header string, line string) *csv.Parser {
 
 	combined := fmt.Sprintf("%s%s", header, line)
 
