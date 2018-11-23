@@ -253,6 +253,96 @@ var _ = Describe("Schema", func() {
 					Ω(result.Columns[0].Kind).Should(Equal(types.Float64))
 				})
 			})
+
+			Context("Bool true", func(){
+				It("Returns a schema with a bool", func(){
+
+					header := "isFoo\n"
+					line := "true\n"
+
+					parser = CreateParser(header, line)
+
+					result, err := parser.ParseSchema()
+
+					Ω(err).Should(BeNil())
+
+					Ω(len(result.Columns)).Should(Equal(1))
+					Ω(result.Columns[0].Name).Should(Equal("isFoo"))
+					Ω(result.Columns[0].Kind).Should(Equal(types.Bool))
+				})
+			})
+
+			Context("Bool false", func(){
+				It("Returns a schema with a bool", func(){
+
+					header := "isFoo\n"
+					line := "false\n"
+
+					parser = CreateParser(header, line)
+
+					result, err := parser.ParseSchema()
+
+					Ω(err).Should(BeNil())
+
+					Ω(len(result.Columns)).Should(Equal(1))
+					Ω(result.Columns[0].Name).Should(Equal("isFoo"))
+					Ω(result.Columns[0].Kind).Should(Equal(types.Bool))
+				})
+			})
+
+			Context("Bool false", func(){
+				It("Returns a schema with a bool", func(){
+
+					header := "isFoo\n"
+					line := "False\n"
+
+					parser = CreateParser(header, line)
+
+					result, err := parser.ParseSchema()
+
+					Ω(err).Should(BeNil())
+
+					Ω(len(result.Columns)).Should(Equal(1))
+					Ω(result.Columns[0].Name).Should(Equal("isFoo"))
+					Ω(result.Columns[0].Kind).Should(Equal(types.Bool))
+				})
+			})
+
+			Context("More than one column", func(){
+				It("Returns a schema with two columns", func(){
+
+					header := "isFoo,total\n"
+					line := "False,123.321\n"
+
+					parser = CreateParser(header, line)
+
+					result, err := parser.ParseSchema()
+
+					Ω(err).Should(BeNil())
+
+					Ω(len(result.Columns)).Should(Equal(2))
+
+					Ω(result.Columns[0].Name).Should(Equal("isFoo"))
+					Ω(result.Columns[0].Kind).Should(Equal(types.Bool))
+
+					Ω(result.Columns[1].Name).Should(Equal("total"))
+					Ω(result.Columns[1].Kind).Should(Equal(types.Float32))
+				})
+			})
+		})
+
+		Describe("Read", func(){
+			Context("Read the cached line after schema parse", func(){
+				It("Returns the cached line, then the second line", func(){
+					Fail("todo")
+				})
+			})
+
+			Context("Read a line before schema is parsed", func(){
+				It("Parses schema, then returns cached line, then second line", func(){
+					Fail("todo")
+				})
+			})
 		})
 	})
 })

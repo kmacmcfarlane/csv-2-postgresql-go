@@ -6,6 +6,13 @@ type Writer struct {
 	schema schema.Schema
 }
 
-func (w Writer) Write(values []string) error {
+// CreateTable instantiates a table compatible with the given schema
+func (w Writer) CreateTable(name string, schema schema.Schema) error {
+
+
+}
+
+// Insert adds a record to the table
+func (w Writer) Insert(values []string) error {
 
 }
