@@ -20,6 +20,10 @@ var _ = Describe("Postgresql Database Adapter", func() {
 		sql = new(mocks.SQL)
 	})
 
+	AfterEach(func(){
+		sql.AssertExpectations(GinkgoT())
+	})
+
 	Describe("Create Table", func(){
 
 		Context("Small integer column", func(){
@@ -27,7 +31,7 @@ var _ = Describe("Postgresql Database Adapter", func() {
 
 				sql.On("Exec",
 `CREATE TABLE "tablename" (
-_id UUID PRIMARY KEY,
+_id UUID GENERATED ALWAYS AS IDENTITY,
 "total" SMALLINT NOT NULL
 );`).
 					Return(new(mocks.Result), nil).
@@ -52,7 +56,7 @@ _id UUID PRIMARY KEY,
 
 				sql.On("Exec",
 `CREATE TABLE "tablename" (
-_id UUID PRIMARY KEY,
+_id UUID GENERATED ALWAYS AS IDENTITY,
 "total" SMALLINT NOT NULL
 );`).
 					Return(new(mocks.Result), nil).
@@ -77,7 +81,7 @@ _id UUID PRIMARY KEY,
 
 				sql.On("Exec",
 `CREATE TABLE "tablename" (
-_id UUID PRIMARY KEY,
+_id UUID GENERATED ALWAYS AS IDENTITY,
 "total" INTEGER NOT NULL
 );`).
 					Return(new(mocks.Result), nil).
@@ -102,7 +106,7 @@ _id UUID PRIMARY KEY,
 
 				sql.On("Exec",
 `CREATE TABLE "tablename" (
-_id UUID PRIMARY KEY,
+_id UUID GENERATED ALWAYS AS IDENTITY,
 "total" BIGINT NOT NULL
 );`).
 					Return(new(mocks.Result), nil).
@@ -127,7 +131,7 @@ _id UUID PRIMARY KEY,
 
 				sql.On("Exec",
 `CREATE TABLE "tablename" (
-_id UUID PRIMARY KEY,
+_id UUID GENERATED ALWAYS AS IDENTITY,
 "total" FLOAT NOT NULL
 );`).
 					Return(new(mocks.Result), nil).
@@ -152,7 +156,7 @@ _id UUID PRIMARY KEY,
 
 				sql.On("Exec",
 `CREATE TABLE "tablename" (
-_id UUID PRIMARY KEY,
+_id UUID GENERATED ALWAYS AS IDENTITY,
 "total" DOUBLE NOT NULL
 );`).
 					Return(new(mocks.Result), nil).
@@ -177,7 +181,7 @@ _id UUID PRIMARY KEY,
 
 				sql.On("Exec",
 `CREATE TABLE "tablename" (
-_id UUID PRIMARY KEY,
+_id UUID GENERATED ALWAYS AS IDENTITY,
 "comments" TEXT NOT NULL
 );`).
 					Return(new(mocks.Result), nil).
@@ -192,6 +196,114 @@ _id UUID PRIMARY KEY,
 				databaseWriter = postgresql.NewWriter(sql)
 
 				err := databaseWriter.CreateTable("tablename", schema)
+
+				Ω(err).Should(BeNil())
+			})
+		})
+
+		Context("Multiple columns", func(){
+			It("Creates a table with INTEGER, FLOAT, and TEXT columns", func(){
+
+				sql.On("Exec",
+`CREATE TABLE "tablename" (
+_id UUID GENERATED ALWAYS AS IDENTITY,
+"count" INTEGER NOT NULL,
+"total" FLOAT NOT NULL,
+"comments" TEXT NOT NULL
+);`).
+					Return(new(mocks.Result), nil).
+					Times(1)
+
+				schema := schema.Schema{
+					Columns: []schema.Column{
+						{
+							Kind: types.Int32,
+							Name: "count"},
+						{
+							Kind: types.Float32,
+							Name: "total"},
+						{
+							Kind: types.String,
+							Name: "comments"}}}
+
+				databaseWriter = postgresql.NewWriter(sql)
+
+				err := databaseWriter.CreateTable("tablename", schema)
+
+				Ω(err).Should(BeNil())
+			})
+		})
+	})
+
+	Describe("Insert", func(){
+
+		Context("int32", func(){
+			It("Inserts an integer value", func(){
+
+				sql.On("Exec",
+					`INSERT INTO "tablename" VALUES ($1);`, []string{"13"}).
+					Return(new(mocks.Result), nil).
+					Times(1)
+
+				schema := schema.Schema{
+					Columns: []schema.Column{
+						{
+							Kind: types.Int32,
+							Name: "count"}}}
+
+				databaseWriter = postgresql.NewWriter(sql)
+
+				err := databaseWriter.Insert([]string{"13"}, schema, "tablename")
+
+				Ω(err).Should(BeNil())
+			})
+		})
+
+		Context("int32", func(){
+			It("Inserts a string value", func(){
+
+				sql.On("Exec",
+					`INSERT INTO "tablename" VALUES ($1);`, []string{"hello world"}).
+					Return(new(mocks.Result), nil).
+					Times(1)
+
+				schema := schema.Schema{
+					Columns: []schema.Column{
+						{
+							Kind: types.String,
+							Name: "comment"}}}
+
+				databaseWriter = postgresql.NewWriter(sql)
+
+				err := databaseWriter.Insert([]string{"hello world"}, schema, "tablename")
+
+				Ω(err).Should(BeNil())
+			})
+		})
+
+		Context("multiple values", func(){
+			It("Inserts an int, float, and string value", func(){
+
+				sql.On("Exec",
+					`INSERT INTO "tablename" VALUES ($1, $2, $3);`, []string{"13", "321.123", "hello world"}).
+					Return(new(mocks.Result), nil).
+					Times(1)
+
+				schema := schema.Schema{
+					Columns: []schema.Column{
+						{
+							Kind: types.Int32,
+							Name: "count"},
+						{
+							Kind: types.Float32,
+							Name: "total"},
+						{
+							Kind: types.String,
+							Name: "comment"}}}
+
+				databaseWriter = postgresql.NewWriter(sql)
+
+				err := databaseWriter.Insert([]string{"13", "321.123", "hello world"}, schema, "tablename")
 
 				Ω(err).Should(BeNil())
 			})

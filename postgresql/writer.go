@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"github.com/kmacmcfarlane/csv-2-postgresql-go/schema"
 	"go/types"
+	"strconv"
 	"strings"
 )
 
@@ -18,7 +19,7 @@ func NewWriter(db SQL) Writer {
 }
 
 // CreateTable instantiates a table compatible with the given schema
-func (w Writer) CreateTable(name string, schema schema.Schema) (err error) {
+func (w Writer) CreateTable(tableName string, schema schema.Schema) (err error) {
 
 	// Validate
 	if nil == schema.Columns || 0 == len(schema.Columns) {
@@ -37,13 +38,16 @@ func (w Writer) CreateTable(name string, schema schema.Schema) (err error) {
 
 	combinedColumns := strings.Join(columnDefinitions, ",\n")
 
-	// Execute the query
-	_, err = w.db.Exec(
-		fmt.Sprintf(
+	// Execute the statement
+	statementTemplate :=
 `CREATE TABLE "%s" (
-_id UUID PRIMARY KEY,
+_id UUID GENERATED ALWAYS AS IDENTITY,
 %s
-);`, name, combinedColumns))
+);`
+
+	statement := fmt.Sprintf(statementTemplate, tableName, combinedColumns)
+
+	_, err = w.db.Exec(statement)
 
 	if nil != err {
 		return err
@@ -53,7 +57,32 @@ _id UUID PRIMARY KEY,
 }
 
 // Insert adds a record to the table
-func (w Writer) Insert(values []string, schema schema.Schema) (err error) {
+func (w Writer) Insert(values []string, schema schema.Schema, tableName string) (err error) {
+
+	var sb strings.Builder
+	valuesLength := len(values)
+
+	// we are creating a string for the insert template like: $1, $2, $3
+	for i := 1; i < valuesLength + 1; i ++ {
+
+		sb.WriteRune('$')
+		sb.WriteString(strconv.Itoa(i))
+
+		if i != valuesLength {
+			sb.WriteRune(',')
+			sb.WriteRune(' ')
+		}
+	}
+
+	statementTemplate := `INSERT INTO "%s" VALUES (%s);`
+
+	statement := fmt.Sprintf(statementTemplate, tableName, sb.String())
+
+	_, err = w.db.Exec(statement, values)
+
+	if nil != err {
+		return err
+	}
 
 	return err
 }
