@@ -74,9 +74,7 @@ func (w Writer) Insert(values []string, schema schema.Schema, tableName string) 
 		}
 	}
 
-	statementTemplate := `INSERT INTO "%s" VALUES (%s);`
-
-	statement := fmt.Sprintf(statementTemplate, tableName, sb.String())
+	statement := fmt.Sprintf(`INSERT INTO "%s" VALUES (%s);`, tableName, sb.String())
 
 	_, err = w.db.Exec(statement, values)
 
