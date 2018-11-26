@@ -26,6 +26,13 @@ func (w Writer) CreateTable(tableName string, schema schema.Schema) (err error) 
 		return errors.New("invalid schema: missing columns")
 	}
 
+	// Remove existing table
+	_, err = w.db.Exec(fmt.Sprintf(`DROP TABLE IF EXISTS "%s";`, tableName))
+
+	if nil != err {
+		return err
+	}
+
 	// Define the schema
 	columnDefinitions := make([]string, len(schema.Columns))
 
@@ -41,7 +48,6 @@ func (w Writer) CreateTable(tableName string, schema schema.Schema) (err error) 
 	// Execute the statement
 	statementTemplate :=
 `CREATE TABLE "%s" (
-_id UUID GENERATED ALWAYS AS IDENTITY,
 %s
 );`
 
@@ -76,7 +82,12 @@ func (w Writer) Insert(values []string, schema schema.Schema, tableName string) 
 
 	statement := fmt.Sprintf(`INSERT INTO "%s" VALUES (%s);`, tableName, sb.String())
 
-	_, err = w.db.Exec(statement, values)
+	var valuesGeneric = make([]interface{}, len(values))
+	for i, value := range values {
+		valuesGeneric[i] = value
+	}
+
+	_, err = w.db.Exec(statement, valuesGeneric...)
 
 	if nil != err {
 		return err

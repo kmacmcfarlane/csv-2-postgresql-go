@@ -1,0 +1,1001 @@
+first_name,last_name,age,street_address,city,state,zip_code,latitude,longitude,has_dog
+Carolyn,Crabtree,25,"3795 Maple Court",Stover,MO,65078,38.412568,-93.101856,false
+Christopher,Klapper,54,"3894 Kovar Road",Worcester,MA,01608,42.284154,-71.729348,true
+Joseph,Zerbe,25,"4004 Lake Forest Drive","Kansas City",KS,64106,39.08726,-94.586394,false
+Donald,Reynolds,40,"351 Bingamon Branch Road","Oak Brook",IL,60523,41.764255,-88.000075,true
+Harold,Walsh,74,"534 Rosebud Avenue","West Memphis",AR,72301,35.214775,-90.080812,true
+Janel,Amos,59,"4174 Rosemont Avenue",Anaheim,CA,92801,33.894576,-117.973879,true
+Harold,Hensley,78,"1872 Pyramid Valley Road",Kalona,IA,52247,41.43617,-91.640112,true
+Michael,Boucher,72,"1735 Chardonnay Drive",Orchards,WA,98662,45.631857,-122.612947,false
+Charles,Bishop,21,"4137 Calico Drive",Kennewick,WA,99336,46.209195,-119.104677,true
+Daniel,Hutchinson,44,"4775 Haul Road","Saint Paul",MN,55102,44.839079,-93.065536,true
+Clara,Nelson,85,"4166 White Pine Lane",Roanoke,VA,24019,37.458771,-79.98637,true
+Joey,Russell,80,"2119 Findley Avenue",Mchenry,ND,58464,47.681082,-98.582415,false
+Mary,Moore,47,"4745 Benson Park Drive","Oklahoma City",OK,73128,35.361413,-97.55072,true
+Richard,White,28,"3179 Ingram Street",Marshall,OH,45133,39.174037,-83.484112,true
+Catherine,Hunter,71,"769 Park Street","San Francisco",CA,94108,37.787605,-122.451595,false
+Maggie,Constant,54,"2965 Briarwood Road",Joplin,MO,64804,37.042651,-94.405495,true
+Heather,Castro,49,"3169 Maple Court",Rolla,MO,65401,37.84849,-91.727735,true
+Jennifer,Ruggieri,53,"4654 Patterson Road","Far Rockaway",NY,11691,40.570108,-73.664052,true
+Lloyd,Rodgers,56,"3922 Drainer Avenue","Panama City",FL,32401,30.234347,-85.554025,true
+Jenna,Wells,85,"1173 Flinderation Road",Bridgeview,IL,60455,41.683451,-87.810312,true
+Sylvia,Caldwell,59,"3812 Hershell Hollow Road","Johnson City",TN,37601,36.34857,-82.254327,false
+Michael,Womack,66,"3838 Traction Street",Piedmont,SC,29673,34.650558,-82.451917,true
+Douglas,Fletcher,83,"3432 Arlington Avenue",Maryville,TN,37801,35.599544,-84.048526,true
+Nathan,Edwards,40,"2272 Ashwood Drive","Council Bluffs",IA,51501,41.329367,-95.850014,false
+Jodi,Harris,55,"1262 Glen Falls Road",Philadelphia,PA,19124,39.948518,-75.185791,true
+Barbara,Frazier,41,"2199 Candlelight Drive",Baytown,TX,77520,29.777132,-94.941681,true
+Hector,Smith,19,"2998 Poplar Chase Lane",Pocatello,ID,83204,42.819555,-112.549825,true
+Roy,Mitchell,40,"4847 Cherry Tree Drive",Jacksonville,FL,32202,30.366703,-81.734224,true
+Vivian,Grady,34,"537 Walnut Hill Drive",Sharonville,OH,45241,39.210244,-84.325361,true
+Michael,Martinez,37,"1737 Saint Clair Street",Houlka,MS,38850,34.13904,-88.927129,false
+Jason,Rollins,35,"4885 My Drive",Mineola,NY,11501,40.675648,-73.581304,false
+Cory,Brown,63,"1286 Foley Street","Ft Lauderdale",FL,33311,26.032903,-80.086136,true
+Joshua,Morrow,68,"2774 Vineyard Drive","Garfield Heights",OH,44125,41.417042,-81.647191,false
+Robert,Faison,21,"1620 Berkshire Circle",Knoxville,TN,37917,36.001404,-83.905051,true
+Marcus,Younger,44,"2661 Wilmar Farm Road",Washington,MD,20005,38.84126,-76.955124,true
+Bob,Garza,48,"235 Ethels Lane",Lakeland,FL,33801,28.064582,-81.954312,true
+Michael,Hanrahan,85,"3270 Old Dear Lane","New York",NY,10005,40.626287,-74.011022,true
+Rickey,Krueger,39,"4857 Poplar Avenue","Imperial Beach",CA,92032,32.566106,-117.130562,true
+Tessa,Porto,66,"3625 Keyser Ridge Road",Greensboro,NC,27406,36.012072,-79.723613,true
+Jacquelyne,Alleyne,38,"4070 Buckhannan Avenue",Syracuse,NY,13224,43.092307,-76.0592,true
+Denita,Martin,57,"4347 Winding Way",Scituate,RI,02857,41.825134,-71.515377,true
+Theresa,Patterson,44,"114 Lincoln Street",Camden,NJ,08102,40.012688,-75.14304,true
+Mina,Talmage,50,"4876 Oak Drive",Albany,NY,12207,42.718732,-73.678722,false
+Michael,Thomas,68,"2438 Ripple Street",Saginaw,MI,48607,43.464967,-83.923768,true
+Maureen,Thompson,51,"4738 Bell Street","New York",NY,10004,40.677683,-74.056993,true
+John,Zoller,67,"1543 Philli Lane",Tulsa,OK,74116,36.218047,-95.879015,true
+Carol,Urban,80,"362 Mount Tabor",Monsey,NY,10952,41.05828,-74.025499,false
+Gustavo,Verner,55,"1790 Middleville Road","Santa Fe Springs",CA,90670,34.014334,-118.064012,true
+Agustin,Artis,45,"2415 Asylum Avenue",Stamford,CT,06902,41.049886,-73.533097,false
+John,Griffin,70,"3958 Duncan Avenue",Huntington,NY,11743,40.957143,-73.432362,true
+Ashley,Williams,40,"302 Heritage Road",Stockton,CA,95204,38.037037,-121.390747,true
+Christopher,Harmon,31,"2384 Libby Street",Torrance,CA,90503,33.930566,-118.420934,false
+Gilbert,McCoy,47,"1309 Bicetown Road","New York",NY,10013,40.711096,-74.076919,false
+Jerrod,Dunham,79,"1491 Selah Way",Burlington,VT,05401,44.48757,-73.127407,true
+Francis,Slick,78,"689 Bungalow Road",Omaha,NE,68114,41.340808,-95.966833,false
+Andrew,Conner,78,"3064 Bates Brothers Road",Columbus,OH,43215,39.928196,-82.96086,false
+Chau,Moreau,73,"3316 Kooter Lane",Shelby,NC,28150,35.321534,-81.668701,true
+Eugenia,Czajkowski,21,"686 Straford Park",Lexington,KY,40507,38.007399,-84.529019,true
+Jarvis,Sams,47,"1026 Meadow Drive",Helena,MT,59601,46.498557,-112.183327,true
+Jesus,Miskell,49,"4302 Augusta Park","Mount Airy",WV,21771,39.337503,-77.113135,true
+Terry,Butler,78,"1897 Davis Court",Enfield,IL,62835,38.047245,-88.336641,true
+Douglas,Mains,80,"4734 Rocky Road",Philadelphia,PA,19107,39.862351,-75.14754,true
+Billie,Hebert,37,"1915 Terry Lane",Orlando,FL,32803,28.505689,-81.344367,true
+Francisco,Winland,24,"3094 Whiteman Street","Mays Landing",NJ,08330,39.402723,-74.795292,false
+Mary,Mitten,27,"1602 Grove Avenue",Ada,OK,74820,34.899314,-96.754573,true
+Iva,Bryant,28,"1627 Rodney Street","Saint Louis",MO,63146,38.697298,-90.4402,true
+Beth,Ryan,72,"1552 Godfrey Street","Eagle Creek",OR,97022,45.34971,-122.367439,false
+Amanda,Hall,63,"862 Emily Renzelli Boulevard",Salinas,CA,93901,36.705593,-121.567629,false
+Lisa,Blanco,67,"2799 Brighton Circle Road","Granite Falls",MN,56241,44.894893,-95.507408,true
+James,Lesniak,24,"2773 Shady Pines Drive",Marion,VA,24354,36.892047,-81.559875,true
+Robert,Washington,77,"673 Poplar Chase Lane",Boise,ID,83702,43.633772,-116.216013,true
+Maria,Bowers,77,"3608 Riverside Drive",Augusta,GA,30901,33.362471,-81.959706,true
+Debbie,Blessing,44,"849 Bryan Avenue","Red Wing",MN,55066,44.61874,-92.624571,true
+Doug,Heiss,76,"3866 Cerullo Road",Louisville,KY,40244,38.270786,-85.774201,true
+Jane,Gilley,31,"3885 Gore Street",Houston,TX,77002,29.676805,-95.455271,true
+Rosella,Wells,83,"4311 Park Boulevard",Searsboro,IA,50242,41.636428,-92.649774,true
+Connie,Tomko,42,"1761 Warner Street","Fort Lauderdale",FL,33311,26.060427,-80.119614,true
+Elisa,McNiel,57,"3347 Jett Lane",Irvine,CA,92664,33.617119,-117.707547,true
+Clinton,Porter,24,"1939 Crim Lane",Fairborn,OH,45324,39.729073,-83.993657,true
+Kathy,Vincent,24,"4644 Adams Avenue",Frederick,MD,21701,39.389504,-77.275145,false
+Robert,Black,38,"2334 Post Avenue","South Bend",IN,46601,41.715934,-86.157974,false
+Christopher,McGee,35,"3867 Hewes Avenue",Baltimore,MD,21201,39.286221,-76.525519,true
+Mark,Hernandez,30,"4247 Harron Drive",Baltimore,MD,21229,39.280473,-76.73004,false
+Robert,Castillo,37,"2029 Lords Way","Union City",TN,38261,36.361825,-89.154244,true
+David,Cobb,70,"365 Bagwell Avenue",Gainesville,FL,32601,29.586996,-82.271259,false
+Ryan,Cruz,51,"1246 Wilkinson Court","Cape Coral",FL,33904,26.600779,-81.905685,true
+Alonzo,Blazer,78,"2145 College Street",Decatur,GA,30030,33.746262,-84.345702,false
+Louis,Ramsey,25,"16 Brooke Street",Houston,TX,77063,29.74811,-95.517824,true
+Christine,Thornton,35,"2430 Cerullo Road",Louisville,KY,40242,38.231511,-85.594144,true
+Carolyn,Martinez,19,"1693 Khale Street",Kingstree,SC,29556,33.72476,-79.856634,true
+Aimee,Cox,27,"2176 Sunny Day Drive",Anaheim,CA,92801,33.817204,-117.872298,true
+Kathryn,Knapp,59,"3347 Ashford Drive",Mclean,VA,22101,38.990122,-77.092904,true
+Doris,Lester,80,"4081 Stoneybrook Road",Orlando,FL,32805,28.498488,-81.349469,true
+Matthew,Hoffman,62,"4097 Maxwell Farm Road",Chico,CA,95926,39.721523,-121.7648,false
+Hannah,Pickett,32,"3847 Dancing Dove Lane",Whitestone,NY,11357,40.740017,-73.789258,true
+Coreen,Sipe,30,"729 Roane Avenue",Pasadena,TX,77503,29.615265,-95.2337,true
+Ronald,Butler,61,"1356 Brannon Avenue",Jacksonville,FL,32207,30.304328,-81.713111,true
+Mary,Rodriquez,74,"132 Broaddus Avenue",Maceo,KY,42355,37.787441,-86.954006,true
+Jack,Jones,58,"2833 Hemlock Lane",Mcallen,TX,78501,26.284651,-98.271815,false
+Eugene,Berends,66,"2144 Caldwell Road",Rochester,NY,14620,43.128186,-77.526787,false
+Raymonde,Buckley,67,"3068 Hart Ridge Road","Bay City",MI,48706,43.580366,-83.893336,true
+Kimberly,Owens,79,"1640 Briarwood Drive",Bridgeport,NJ,08014,39.734207,-75.29796,false
+Theresa,Burns,51,"118 Cemetery Street",Houston,TX,77098,29.741667,-95.363988,true
+Louis,Carroll,29,"3996 Big Indian","New Orleans",LA,70112,30.009575,-90.172787,true
+Wilson,Diaz,25,"4246 Cambridge Place",Cockeysville,MD,21030,39.568139,-76.653014,true
+Jesus,Green,41,"2409 Conifer Drive",Seattle,WA,98133,47.806481,-122.406333,false
+Francisco,Short,80,"2699 Conference Center Way",Arlington,VA,22201,38.834829,-77.14016,false
+Mary,Arnold,34,"3274 Liberty Street",Plano,TX,75086,33.076912,-96.743732,true
+Phyllis,Figueroa,78,"4206 Havanna Street",Reidsville,NC,27320,36.303897,-79.563712,true
+Dennis,Menjivar,39,"563 Dye Street",Chandler,AZ,85225,33.322208,-111.749748,true
+Ellen,Melville,79,"1915 Harry Place",Mooresville,NC,28115,35.544963,-80.792169,true
+Gladys,Humphrey,77,"4301 Olive Street",Toledo,OH,43604,41.604774,-83.524193,true
+Irma,Wagner,21,"920 Carolina Avenue",Mcallen,TX,78501,26.224994,-98.286917,true
+Michelle,Coleman,84,"940 Elsie Drive",Viborg,SD,57070,43.213931,-97.100173,true
+Sophie,New,30,"4247 Cost Avenue","Silver Spring",MD,20904,38.999655,-76.911464,true
+Vickie,Nguyen,37,"4935 Gandy Street","Saint Louis",MO,63108,38.696529,-90.241691,true
+Mary,Cote,67,"4955 Hayhurst Lane",Southfield,MI,48076,42.596286,-83.285285,false
+Tony,Wilcox,26,"1221 Davis Avenue",Petaluma,CA,94952,38.260163,-122.785143,true
+Jennifer,Markle,69,"361 Garrett Street",Philadelphia,PA,19106,39.960094,-75.198339,true
+Amber,Fisher,74,"3551 Ottis Street","Oklahoma City",OK,73105,35.479107,-97.508678,false
+Lillie,Hardy,70,"1384 Nutters Barn Lane",Urbandale,IA,50322,41.533519,-93.705791,true
+Timothy,Terry,56,"970 West Drive","Burr Ridge",IL,61257,41.667395,-87.962371,true
+Cynthia,Mitchell,38,"3032 Rhapsody Street",Gainesville,FL,32601,29.704746,-82.277786,true
+Lisa,Bryant,21,"2911 My Drive","Garden City",NY,11530,40.823431,-73.700295,true
+Edith,Braddock,71,"2710 Cardinal Lane",Quincy,IL,62301,39.981001,-91.479386,true
+Rita,Birdsall,50,"3719 Airplane Avenue","New Britain",CT,06051,41.728974,-72.770821,false
+Scott,Perkins,51,"4631 Cherry Tree Drive",Mandarin,FL,32223,30.190889,-81.66107,true
+Lance,Paille,81,"4048 Ritter Street","Alexander City",AL,35010,32.97831,-85.961697,false
+Martha,Castle,64,"1062 Haven Lane",Lansing,MI,48933,42.755548,-84.478159,false
+Shirley,Adams,41,"541 Poplar Avenue","San Diego",CA,92111,32.895144,-117.134951,false
+Maxine,Williams,79,"1709 Parrish Avenue","Cranes Mill",TX,78130,29.47633,-98.516779,true
+Marie,Hastings,33,"497 Spruce Drive",Washington,PA,15301,40.10199,-80.270079,false
+Tiffany,Lopez,78,"4977 Yorkie Lane",Savannah,GA,31410,31.958335,-81.013068,true
+Donald,Stauffer,78,"3649 Maple Street",Anaheim,CA,92801,33.820459,-117.933202,true
+Donald,English,20,"3366 Twin House Lane",Springfield,MO,65804,37.150998,-93.164761,true
+Marianne,Clark,21,"893 Brown Bear Drive",Ontario,CA,91761,34.125493,-117.686741,true
+George,Lugo,51,"776 Jenna Lane","Des Moines",IA,50317,41.698366,-93.519172,false
+Emma,Nichols,26,"1744 Goldleaf Lane","Rochelle Park",NJ,07662,40.881097,-74.013062,true
+Michael,Hansen,53,"1420 Marshall Street",Hanover,MD,21076,39.118619,-76.697671,false
+Rasheeda,Kish,58,"1348 Griffin Street",Phoenix,AZ,85003,33.455238,-112.069604,false
+Delores,Schwartz,73,"3765 Ashmor Drive","International Falls",MN,56649,48.517766,-93.28936,true
+Henry,Costa,47,"684 Bird Street",Farmington,NM,87401,36.516426,-108.312071,false
+Robin,Parker,55,"3151 Meadow Lane",Oakland,CA,94612,37.748752,-122.223612,true
+John,Brim,78,"716 Green Avenue",Oakland,CA,94612,37.889354,-122.252741,true
+Anna,Blake,48,"2054 Hillside Drive",Worcester,MA,01610,42.278211,-71.825199,true
+Daniel,Dubin,46,"4680 Nicholas Street",Salina,KS,67401,38.814195,-97.589566,true
+Carlos,Gonzales,37,"2618 Emily Drive",Columbia,SC,29210,34.058911,-81.136014,false
+Denyse,Lucas,26,"4399 Vine Street",Northbrook,IL,60062,42.122445,-87.856423,false
+William,Turner,73,"1673 Del Dew Drive","Silver Spring",MD,20901,39.125575,-77.010407,true
+Gary,Mallory,31,"3437 Hanifan Lane",Atlanta,GA,30310,33.721303,-84.451897,false
+Cindy,Thomas,82,"928 Romano Street",Malden,MA,02148,42.378709,-71.094365,true
+Angel,Bean,26,"2220 Buffalo Creek Road",Lavergne,TN,37086,36.000072,-86.469708,true
+Linda,Wimbish,53,"4018 Ridge Road",Wichita,KS,67202,37.708661,-97.390845,false
+Hattie,Johnson,48,"3879 Green Acres Road","Rocky Mount",NC,27801,36.017645,-77.826963,true
+Ray,Sharp,43,"4038 Ingram Street",Rushsylvania,OH,43347,40.585259,-83.675094,false
+David,Evans,50,"1674 Ryder Avenue",Kirkland,WA,98033,47.669121,-122.243535,true
+Eusebia,Willis,80,"582 Camel Back Road",Tulsa,OK,74120,36.088602,-95.903199,true
+John,Clark,29,"2791 Freed Drive",Stockton,CA,95219,38.001639,-121.466939,true
+Lois,Acosta,82,"3332 Dancing Dove Lane","New York",NY,10001,40.749919,-74.095188,true
+Barbara,Rameriz,49,"1780 Retreat Avenue","Coburn Gore",ME,04936,45.286352,-70.796064,true
+Cortney,Sowa,35,"4319 Ridge Road","Dodge City",KS,67801,37.773209,-100.076546,true
+Deborah,Herrick,20,"2148 Hurry Street",Roanoke,VA,24011,37.208423,-79.959546,true
+Ashley,Hinkel,45,"569 Oakridge Farm Lane",Cedarburg,WI,53012,43.303616,-88.011079,true
+Jerome,Welsh,79,"1973 Middleville Road","El Monte",CA,91731,34.17584,-118.034294,true
+Bernice,Sharkey,79,"1017 Highland Drive","Green Bay",WI,54302,44.597854,-87.952765,true
+Ed,Jenney,83,"4549 Denver Avenue",Ontario,CA,91761,34.064596,-117.511432,true
+Douglas,Nixon,25,"4570 Broadcast Drive",Charlotte,NC,28206,35.349583,-80.741946,true
+Rashad,Siegle,23,"1359 Water Street",Martinez,CA,94553,37.992069,-122.16453,true
+Jerry,Evans,57,"1081 Crosswind Drive","Bowling Green",KY,42101,37.097029,-86.331478,false
+Joy,Dewitt,60,"975 Fancher Drive",Dallas,TX,75212,32.827308,-96.978435,false
+Marion,Uselton,49,"3302 Scott Street","New York",NY,10019,40.747122,-74.071255,false
+Jason,Richardson,48,"3334 Terra Cotta Street",Duluth,MN,55802,46.781103,-92.092638,true
+James,Bennett,60,"4436 Payne Street",Houston,TX,77042,29.746781,-95.583514,true
+Kristin,Nealey,35,"4274 Stark Hollow Road",Fruita,CO,81521,39.104241,-108.744868,true
+Owen,Ryan,78,"2647 Apple Lane",Peoria,IL,61602,40.71956,-89.603451,false
+Angie,Peters,24,"2504 Veltri Drive",Anchorage,AK,99503,61.104618,-149.836174,false
+Donald,Jackson,62,"795 Boring Lane",Oakland,CA,94612,37.884179,-122.299151,true
+David,Smith,38,"743 Morgan Street",Pensacola,FL,32507,30.423334,-87.238908,true
+Samuel,White,52,"3433 Goldie Lane",Sharonville,OH,45241,39.281574,-84.383634,true
+Margaret,Orris,56,"2292 Burnside Avenue",Price,UT,84501,39.574839,-110.749016,true
+Joshua,Sun,55,"3343 Valley View Drive",Needham,MA,02192,42.251581,-71.312815,true
+Vicki,Villarreal,52,"272 Rockwell Lane",Weldon,NC,27890,36.493485,-77.662214,true
+John,Figueroa,30,"404 Coolidge Street",Havre,MT,59501,48.553162,-109.714437,true
+David,Montgomery,68,"2072 Sarah Drive","Lake Charles",LA,70601,30.321096,-93.154989,false
+Teri,Clemons,73,"739 Essex Court",Stratton,VT,05155,43.091989,-72.851087,false
+Grace,Jenkins,84,"893 Oakwood Avenue","New York",NY,10013,40.742002,-74.033062,true
+Jennifer,Reed,23,"1141 Zimmerman Lane","El Monte",CA,91731,34.065259,-117.989908,true
+Nicole,Miles,63,"4312 Rosewood Court",Hendricks,MN,56136,44.563051,-96.474359,true
+Alexander,Marker,62,"2609 Zimmerman Lane","Los Angeles",CA,90017,34.038937,-118.215621,true
+Sandra,Hunter,51,"703 Center Street",Eugene,OR,97401,43.998901,-123.074897,true
+Kenneth,Saunders,78,"2774 Clousson Road",Houston,TX,77587,29.732104,-95.357104,true
+Craig,Barker,43,"2368 Johnny Lane",Milwaukee,WI,53223,43.226531,-88.064678,true
+Charlie,Baldwin,24,"1786 Hilltop Haven Drive",Newark,NJ,07102,40.692939,-74.15919,true
+Leona,Woods,34,"1378 Kelley Road","New Orleans",MS,70112,29.902129,-90.125457,false
+Daniel,Lumsden,66,"3689 Bird Spring Lane",Houston,TX,77077,29.843184,-95.649206,false
+Frank,Hartman,54,"1522 Wyatt Street",Jupiter,FL,33478,26.853863,-80.130377,true
+Harold,Haynes,32,"3550 Hurry Street",Stafford,VA,22554,38.509342,-77.415575,false
+Winifred,Cunningham,20,"4012 Glen Falls Road",Philadelphia,PA,19108,39.93319,-75.159541,false
+Phillip,Phillip,36,"3133 Coolidge Street",Billings,MT,59101,45.649118,-108.401753,true
+Julia,Hendershot,34,"2581 Olive Street",Pandora,OH,45877,40.921153,-84.032679,true
+Marilyn,Wilcox,57,"3691 Hide A Way Road",Orlando,FL,32801,28.638503,-81.401106,true
+Jae,Potter,29,"2533 Eagle Street",Belleville,IL,62220,38.443793,-90.015044,true
+Anna,Taormina,73,"2688 Pinnickinick Street",Vancouver,WA,98663,45.61852,-122.706199,true
+Sue,Wilson,33,"3225 Masonic Drive",Whitewater,MT,59544,48.880136,-107.490999,true
+Lea,Turner,70,"3064 Rardin Drive",Pacifica,CA,94044,37.582748,-122.511493,false
+Anthony,Ziegler,46,"750 Still Street",Toledo,OH,43615,41.71152,-83.757284,false
+Larry,Fenner,32,"3532 Werninger Street",Houston,TX,77040,29.884332,-95.495752,true
+Teresa,Trevino,68,"2108 Tree Frog Lane",Smithville,MO,64089,39.329465,-94.495683,true
+Kevin,Dunford,27,"3641 Geneva Street","New York",NY,10033,40.822939,-74.0201,true
+Dorothy,Smith,27,"3961 Johnson Street",Raleigh,NC,27601,35.679141,-78.691399,false
+Margaret,Young,23,"3401 Pine Tree Lane",Gaithersburg,MD,20877,39.060576,-77.238066,true
+Randall,McKeever,71,"1785 Golden Ridge Road",Albany,NY,12207,42.622457,-73.654149,true
+Austin,Bonilla,56,"2642 Valley Lane",Austin,TX,78723,30.249839,-97.702205,false
+Gary,Budge,65,"4699 Little Acres Lane",Fisher,IL,61843,40.35805,-88.318254,true
+Mary,McDade,67,"2000 Sunny Day Drive","Santa Ana",CA,92705,33.861135,-117.819116,true
+Frank,Yoon,55,"3432 Dark Hollow Road","Maple Shade",NJ,08052,39.995094,-74.896877,true
+Sarah,Garcia,47,"2233 Davis Court",Carbondale,IL,62901,37.770529,-89.13988,true
+Connie,Hall,26,"1684 Hillcrest Avenue",Cambridge,MA,02141,42.461758,-71.128458,true
+David,Sowder,49,"632 Edsel Road","City Of Commerce",CA,90040,34.094462,-118.109448,true
+Emil,Lee,68,"2738 Pursglove Court",Dayton,OH,45402,39.812043,-84.215597,false
+Amy,Hannah,81,"4732 Sarah Drive","Turkey Creek",LA,70585,30.641885,-92.228507,true
+Myrtis,Webber,37,"3112 Radio Park Drive",Augusta,GA,30901,33.449109,-81.96492,true
+Bruce,Emond,27,"825 Nash Street","Hickory Hills",IL,60457,41.777225,-87.92371,true
+Brian,Gomez,64,"4249 Edsel Road","Sherman Oaks",CA,91403,34.077386,-118.47072,true
+John,Yates,34,"3293 Post Avenue","Crane Lake",MN,55725,48.307733,-92.634093,true
+Michael,Brooks,32,"2853 Roguski Road",Shreveport,LA,71101,32.410628,-93.747578,false
+Alejandro,Nicolas,68,"605 Don Jackson Lane",Volcano,HI,96785,19.417516,-155.19092,true
+William,Meyer,28,"4053 Highland Drive",Appleton,WI,54913,44.359244,-88.500055,true
+Elaine,Davis,77,"223 Westwood Avenue","Garden City",NY,11530,40.709455,-73.555481,false
+George,Ebert,27,"401 Lost Creek Road",Wayne,PA,19087,40.007826,-75.443233,true
+Betty,Grosvenor,30,"233 Crim Lane",Dayton,OH,45459,39.719076,-84.250316,false
+Kathryn,Swaim,82,"2004 Hawks Nest Lane","Saint Louis",MO,63108,38.699971,-90.155206,true
+Deanna,Olsen,60,"1828 Goff Avenue","Grand Rapids",MI,49503,43.035369,-85.59105,false
+Isiah,Foster,68,"2041 Dark Hollow Road",Oriental,NJ,08088,51.240662,4.13182,true
+Wynona,Riebe,83,"2940 Jim Rosa Lane","San Francisco",CA,94108,37.855647,-122.455285,false
+Harry,Gonzalez,50,"1756 Lawman Avenue",Chantilly,VA,22021,38.900655,-77.376137,true
+Alex,Johnson,23,"530 Single Street",Woburn,MA,01801,42.536387,-71.222008,true
+Robert,Paxton,47,"625 Ingram Street",Dayton,OH,45402,39.666363,-84.263706,true
+Minerva,Walsh,35,"1270 Hilltop Street",Hinsdale,MA,01235,42.448813,-73.092506,true
+Ana,Ramos,33,"1462 Garrett Street","Fort Washington",PA,19034,40.149378,-75.284445,true
+Harley,Weir,27,"3145 Maple Street",Westminster,CA,92683,33.733898,-118.060531,true
+Crystal,Higgins,83,"3638 Holly Street",Augusta,GA,30901,33.343464,-82.046327,true
+Barbara,Donaldson,50,"3167 Driftwood Road","Santa Clara",CA,95054,37.317642,-122.03837,true
+Maria,Currier,62,"3807 Fowler Avenue",Norcross,GA,30071,33.923304,-84.158497,false
+Harvey,Mendez,67,"2577 Valley Street",Camden,NJ,08102,39.990599,-75.032868,true
+Kathleen,Anderson,84,"1080 Fancher Drive",Dallas,TX,75202,32.845463,-96.900259,true
+Steve,Johnson,72,"2684 Pick Street",Denver,CO,80203,39.650405,-104.92355,true
+Kim,Rohrer,70,"3076 Star Route",Schaumburg,IL,60173,41.973155,-87.963887,true
+Virginia,McGarity,51,"3675 Grand Avenue",Apopka,FL,32703,28.599319,-81.604492,false
+Lonnie,Harris,68,"1144 Carolyns Circle",Dallas,TX,75248,32.912613,-96.863232,false
+Jean,Snyder,81,"4619 Meadow Drive","Gast Glacier Park",MT,59434,48.756903,-113.754848,false
+Thomas,Medrano,67,"4458 Tecumsah Lane","Cedar Rapids",IA,52401,41.976199,-91.63397,true
+Rodney,Maddox,52,"3163 Johnny Lane",Milwaukee,WI,53226,43.088915,-88.023808,false
+Michael,Estep,38,"3968 Agriculture Lane",Miami,FL,33176,25.653828,-80.356735,false
+Janet,Horton,67,"1672 Red Hawk Road","Cold Spring",MN,56320,45.481503,-94.436165,true
+Darnell,Losh,64,"378 Ashford Drive",Mclean,VA,22101,38.984163,-77.10367,true
+Teri,Bell,56,"863 Pritchard Court",Rochester,MN,55904,43.959206,-92.318237,false
+Chasity,James,28,"75 Andell Road",Nashville,TN,37206,36.232057,-86.751172,true
+Maurice,Lane,24,"619 Dola Mine Road",Durham,NC,27704,36.13212,-78.840288,true
+Louis,Bates,26,"917 Duke Lane","Jersey City",NJ,07305,40.69533,-74.060496,true
+James,Parrish,38,"2399 Mutton Town Road","Lake Goodwin",WA,98292,48.183259,-122.277938,true
+Sonja,Carrillo,39,"1860 Jett Lane",Pomona,CA,91766,33.95556,-117.708661,true
+Amy,Collard,21,"1466 Meadow Drive","Oklahoma City",OK,73107,35.429437,-97.614824,true
+John,Handy,54,"2088 Andell Road",Watertown,TN,37184,36.004173,-86.148736,true
+John,Estep,60,"4417 Capitol Avenue",Richmond,IN,47374,39.762478,-84.915708,true
+Victor,Holloway,29,"596 Pearlman Avenue",Lowell,MA,01852,42.633713,-71.384897,true
+Kevin,Harris,35,"3936 Creekside Lane","San Luis Obispo",CA,93401,35.20396,-120.546013,true
+Emily,Panek,62,"1012 Marigold Lane",Hialeah,FL,33012,25.814579,-80.37951,true
+Helen,Perkins,42,"3616 Hickory Street","Spanish Fork",UT,84660,40.0492,-111.629921,false
+Mildred,Morales,59,"2998 Buckhannan Avenue",Moravia,NY,13118,42.688087,-76.505337,true
+Rita,Connor,26,"637 Hershell Hollow Road",Bristol,TN,37620,36.537088,-82.136605,true
+Rick,Johnson,25,"2575 Milford Street",Portsmouth,NH,03801,43.113853,-70.823277,true
+Arnold,Langlinais,70,"4378 Rogers Street",Cincinnati,OH,45202,39.06129,-84.431596,true
+Leslie,Walker,26,"1374 Hott Street",Norman,OK,73069,35.21511,-97.426178,true
+Jeffrey,Janzen,54,"2390 Cross Street",Saginaw,MI,48607,43.382662,-84.018841,true
+Yvonne,Monaco,26,"1927 White Avenue","Corpus Christi",TX,78476,27.716171,-97.442006,false
+Gerald,Dones,34,"4868 Neuport Lane",Tucker,GA,30084,33.756076,-84.199138,true
+Sharon,Overby,85,"2847 Mulberry Lane","West Palm Beach",FL,33401,26.75029,-80.059133,true
+Mercedez,Flynn,76,"2389 Lost Creek Road",Roseville,MN,55113,45.038988,-93.066717,true
+Joseph,Scholl,38,"6 Holt Street","Boynton Beach",FL,33435,26.60809,-80.137721,true
+Vickie,Adams,30,"1575 Valley Lane",Austin,TX,78744,30.258864,-97.652952,true
+Troy,Reinke,54,"186 Kelly Street",Dallas,NC,28034,35.434823,-81.283978,true
+Jeffrey,Kelly,60,"445 Heliport Loop","Pigeon Township",IN,47523,37.871623,-87.525241,true
+Joyce,Seal,49,"2153 Burwell Heights Road","Bridge City",TX,77611,30.068598,-93.72206,true
+William,Hickman,63,"1496 Raoul Wallenberg Place",Stamford,CT,06901,41.058592,-73.547004,true
+Timothy,Keenan,32,"4568 Hamilton Drive",Woodlawn,MD,21207,39.315551,-76.738265,true
+Christine,Shirey,65,"4357 Glenview Drive","Corpus Christi",TX,78476,27.818679,-97.390813,false
+Michael,Ochoa,67,"3204 Romrog Way","Grand Island",NE,68801,41.039685,-98.294112,false
+Nicole,Houston,55,"3350 Wyatt Street","Fort Lauderdale",FL,33301,26.181146,-80.162146,true
+Wade,Numbers,23,"4903 Wiseman Street",Sevierville,TN,37862,35.682017,-83.671774,true
+John,Anderson,37,"4525 Griffin Street",Phoenix,AZ,85008,33.468047,-112.050322,false
+Jose,Sullivan,74,"6 Kennedy Court",Bedford,MA,01730,42.463561,-71.188618,true
+Allen,Shafer,83,"37 Brooklyn Street",Eugene,OR,97402,44.106224,-123.144744,true
+Brandy,Porche,78,"2996 Hillcrest Lane",Irvine,CA,92614,33.6247,-117.869997,true
+Clemmie,Lowman,45,"2938 Hillside Drive","West Roxbury",MA,02132,42.272242,-71.138976,true
+Lisa,Westley,33,"1535 Aaron Smith Drive",Harrisburg,PA,17102,40.252728,-76.839659,false
+Clifton,Klar,21,"3636 Goosetown Drive",Asheville,NC,28801,35.607765,-82.620917,false
+Daniel,Fisher,27,"2138 Randall Drive",Kula,HI,96790,20.676674,-156.322642,false
+Zachariah,Feldman,56,"2795 Lynn Ogden Lane",Houston,TX,77099,29.657679,-95.683823,true
+Charles,Eckman,84,"2991 John Calvin Drive","Burr Ridge",IL,60527,41.759167,-87.825609,true
+Jeremy,Clark,42,"2623 Levy Court","S Boston",MA,02127,42.368658,-71.057572,true
+Roy,Chase,56,"4894 Havanna Street",Greensboro,NC,27406,36.010405,-79.758915,true
+Albert,Bilbrey,45,"1360 Single Street",Cambridge,MA,02142,42.353587,-71.043291,false
+John,Sullivan,85,"1519 Carson Street",Lexington,KY,40507,38.083055,-84.454464,true
+Joellen,Hartwig,48,"4047 Boone Crockett Lane",Kirkland,WA,98033,47.574758,-122.227826,true
+David,McKenna,85,"4993 Stone Lane",Bensalem,PA,19020,40.042865,-74.978379,true
+Michael,Swank,32,"3026 Pinnickinick Street",Seattle,WA,98119,47.717771,-122.393928,true
+Evelyn,Zheng,41,"3742 Hart Street",Hartford,CT,06182,41.813393,-72.586127,true
+Stephen,Parrish,56,"3083 Thomas Street","Elk Grove Village",IL,60007,42.025462,-87.984137,true
+John,Dowd,21,"3378 Farm Meadow Drive",Smithville,TN,37166,35.948879,-85.747854,true
+Erika,Peralta,45,"2341 Nutter Street",Cameron,MO,64429,39.734569,-94.314384,true
+Diane,Belcher,48,"3126 Sycamore Lake Road",Milwaukee,WI,53225,43.025309,-88.085841,true
+Edward,Myers,80,"1696 Preston Street","Rush Center",KS,67575,38.494739,-99.284456,true
+Julie,Walker,75,"2168 Simpson Square","Oklahoma City",OK,73129,35.466324,-97.535511,false
+Earl,Parry,37,"4250 Bird Street",Lordsburg,NM,88045,32.393431,-108.856763,true
+Jimmy,Masten,73,"83 Oliverio Drive","Dodge City",KS,67801,37.883719,-100.061252,false
+Robert,Farmer,43,"3854 Harper Street",Paducah,KY,42001,37.014389,-88.757281,true
+Lisa,Sadowski,60,"1787 Platinum Drive",Canonsburg,PA,15317,40.202949,-80.265501,true
+Paulette,Grigsby,41,"3726 Jones Street",Newark,TX,76071,32.920684,-97.398593,true
+Jerry,Vogt,48,"4547 Sweetwood Drive",Aurora,CO,80014,39.728053,-104.786599,true
+Linda,Lampert,51,"1619 Fire Access Road",Greensboro,NC,27444,36.103501,-79.888646,true
+Thomas,Stewart,72,"1262 Coal Street","Osceola Mills",PA,16666,40.838522,-78.258657,true
+Flora,Stewart,37,"3837 Anmoore Road",Brooklyn,NY,11213,40.662793,-73.906714,true
+Kathy,Odell,29,"216 Daylene Drive",Southfield,MI,48075,42.426039,-83.213026,true
+Beth,Scott,52,"1400 McDowell Street",Nashville,TN,37211,36.123213,-86.685082,true
+Dora,Weaver,52,"1736 Roguski Road",Athens,LA,71003,32.555155,-93.080925,true
+Louis,Hulsey,33,"2519 Tecumsah Lane",Simmesport,LA,71369,30.886482,-91.900688,false
+Tom,Wiseman,80,"4391 Carriage Lane","Plymouth Meeting",PA,19462,40.174657,-75.223083,false
+Ruben,Washington,65,"2738 Maple Court","Poplar Bluff",MO,63901,36.807435,-90.414394,true
+Samuel,Adams,64,"1174 Frum Street",Nashville,TN,37203,36.132979,-86.762505,true
+Connie,Coulombe,71,"2856 Clay Street",Indianapolis,IN,46278,39.901612,-86.222404,false
+Betty,Palmer,67,"3846 Brown Bear Drive",Riverside,CA,92507,34.017927,-117.340987,true
+Jeffrey,Knapp,33,"139 Bartlett Avenue",Southfield,MI,48235,42.544147,-83.162018,false
+Jose,Rivas,30,"1731 Heavner Court",Lynbrook,NY,11563,40.727986,-73.670402,true
+Phillis,Gustafson,61,"936 Boone Crockett Lane",Seattle,WA,98161,47.474188,-121.847111,false
+Donald,Runge,44,"4965 Ryan Road",Madison,SD,57042,44.02134,-97.209679,false
+Joe,Pena,79,"4779 Carolina Avenue","Fort Collins",CO,80525,40.518471,-105.15829,true
+Charles,Romero,31,"1794 Archwood Avenue","Rock Springs",WY,82901,41.486756,-108.991735,true
+Kam,Andres,77,"2598 Hickory Lane",Washington,DC,20005,38.966198,-77.086299,true
+Jewel,Tarry,63,"4187 Kyle Street",Pleasanton,NE,68866,40.917544,-99.152778,false
+Lori,Murry,64,"3583 Cedarstone Drive",Toledo,OH,43609,41.723897,-83.521281,true
+Erin,Rogers,75,"3535 Middleville Road","Los Angeles",CA,90017,34.123149,-118.22839,true
+David,Shurtz,74,"4339 Ottis Street",Piedmont,OK,73078,35.622753,-97.669931,false
+Roderick,King,71,"3063 Bel Meadow Drive",Ontario,CA,91761,34.009855,-117.5526,true
+John,Davis,62,"3868 Fittro Street",Glenwood,AR,71943,34.331066,-93.574174,true
+John,Livingston,60,"3028 Glenview Drive","Corpus Christi",TX,78476,27.701127,-97.405088,true
+Laura,Ohara,76,"839 Spruce Drive",Pittsburgh,PA,15222,40.486814,-80.040034,true
+Aurora,Reliford,82,"4373 Whaley Lane",Kenosha,WI,53140,42.722055,-87.916944,false
+Leonard,Spano,84,"2447 Saint Francis Way",Philadelphia,PA,19108,40.018477,-75.157392,true
+Delphia,McBurney,67,"540 Nelm Street",Hannibal,MO,63401,39.744981,-91.373554,false
+Linda,Riddick,30,"2779 Chapel Street",Houston,TX,77084,29.812297,-95.682172,true
+Norma,Reis,80,"3011 Marion Drive",Tampa,FL,33634,28.045155,-82.526019,true
+William,Moore,29,"4199 Providence Lane","Baldwin Park",CA,91706,34.125668,-117.904837,false
+Larry,Adame,41,"1421 Stratford Park",Columbus,IN,47201,39.190541,-86.061686,false
+George,Ellison,74,"1204 Kelly Drive",Frederick,WV,21701,39.394386,-77.253119,true
+Donna,Piner,37,"2327 University Drive","Burr Ridge",IL,61257,41.822506,-87.830644,false
+Bob,Perrin,57,"4063 Jewell Road",Minneapolis,MN,55404,44.95679,-93.191868,false
+Larry,Flowers,28,"1236 Jewell Road",Minneapolis,MN,55404,44.957318,-93.203213,false
+Kristie,Coppola,35,"581 Masonic Hill Road",Paron,AR,72122,34.844532,-92.784533,true
+Sandra,McCants,68,"3733 Lynn Avenue",Grantsburg,WI,54840,45.691083,-92.715075,true
+John,Ruby,42,"4204 Ritter Street",Gadsden,AL,35901,34.06821,-85.987924,true
+Frank,Stubblefield,84,"3512 Frum Street",Nashville,TN,37217,36.084216,-86.74121,true
+James,Jenkins,47,"3767 Forest Drive",Arlington,VA,22204,38.941826,-77.146176,false
+Kay,Hardin,38,"2494 Bombardier Way",Detroit,MI,48226,42.344415,-83.138429,true
+Robert,Quick,37,"3718 Bird Street","Las Cruces",NM,88005,32.312718,-106.88666,true
+Dorothy,Brown,50,"2994 Bungalow Road",Omaha,NE,68102,41.201568,-95.927273,true
+Angel,Tarrant,50,"606 Brown Street","Show Low",AZ,85901,34.255249,-110.143803,false
+Marcus,Miller,52,"1176 Penn Street",Bernie,MO,63822,36.692119,-90.007057,false
+Tina,Salazar,28,"430 West Fork Drive",Miramar,FL,33025,26.007856,-80.23097,false
+Irene,Crane,85,"2002 Webster Street","Asbury Park",NJ,07712,40.277841,-74.130969,true
+Betty,Wagner,80,"1469 Payne Street",Lebanon,VA,24266,36.781053,-82.119516,true
+James,Savage,29,"1286 Fulton Street",Parkersburg,WV,26101,39.212391,-81.481871,true
+Ronald,Meredith,31,"3152 Coleman Avenue","Rancho Mirage",CA,92270,33.689687,-116.485731,true
+Francie,Okeefe,70,"1454 Bartlett Avenue",Troy,MI,48083,42.638297,-83.156584,false
+Ernest,Schilling,46,"4141 Heavner Avenue",Bremen,GA,30110,33.850872,-85.165267,false
+Willie,Ivory,27,"2388 Wilkinson Street",Brentwood,TN,37027,35.944511,-86.82188,false
+Lila,Allen,39,"4390 Essex Court","White River Junction",VT,05001,43.622947,-72.362065,false
+Barney,Lazarus,22,"441 Irving Road",Woodsfield,OH,43793,39.697832,-81.09171,false
+Brenda,Nold,53,"918 Berkshire Circle",Knoxville,TN,37921,36.067647,-84.003267,true
+William,Brown,84,"3425 Hillcrest Drive",Tacoma,WA,98408,47.184056,-122.46039,false
+Wayne,Perez,29,"1514 Tyler Avenue",Miami,FL,33128,25.845613,-80.122265,true
+Gregory,Aleman,62,"2417 Spring Avenue",Philadelphia,PA,19108,39.97135,-75.127269,true
+Deborah,Fortenberry,47,"4095 Sycamore Lake Road",Milwaukee,WI,53202,42.984218,-87.802848,true
+Barbara,Vasquez,21,"423 Chipmunk Lane",Seattle,WA,98101,47.69795,-122.327307,true
+Sharon,Williams,68,"1385 Lightning Point Drive",Memphis,TN,38110,35.147885,-90.067172,false
+Michelle,Caswell,51,"4096 Pritchard Court",Owatonna,MN,55060,44.091215,-93.269163,true
+Scott,Wilson,28,"207 Godfrey Street",Wilsonville,OR,97070,45.403816,-122.754959,true
+Christian,Harrison,72,"4707 Stewart Street",Indianapolis,IN,46225,39.790173,-86.122311,true
+Ryan,Garcia,38,"2879 Randall Drive",Honolulu,HI,96815,21.357869,-157.729679,true
+Michelle,Lapointe,58,"3687 Valley Drive",Northampton,PA,18067,40.690589,-75.419818,true
+James,Johnson,72,"3750 North Bend River Road",Fernleaf,KY,41034,38.590245,-83.881201,true
+Charles,Blair,49,"1775 West Side Avenue","Rochelle Park",NJ,07662,40.815945,-74.091854,true
+Neal,Warren,55,"3526 Hart Country Lane",Columbus,GA,31901,32.420949,-85.008598,true
+Evan,Rosales,30,"3139 Alexander Drive",Denton,TX,76205,33.253049,-97.055295,false
+Gail,Haskins,64,"2354 Red Dog Road",Charlotte,NC,28202,35.158355,-80.911275,false
+Sarah,Faber,68,"709 Diamond Cove",Providence,RI,02906,41.739836,-71.341929,true
+Rogelio,Anderson,51,"3696 Michigan Avenue",Pittsburgh,PA,15201,40.462413,-80.008756,false
+Tony,Gies,56,"1598 Primrose Lane",Dodgeville,WI,52650,42.909269,-90.206476,true
+Jeff,Hilyard,36,"4031 Mercer Street","Stevens Point",WI,54481,44.523795,-89.466681,true
+Leatha,Smith,63,"4789 Primrose Lane",Madison,WI,53703,43.011954,-89.417669,true
+Linda,Emerson,69,"445 Water Street","San Ramon",CA,94583,37.82286,-121.951571,true
+Porter,Salazar,37,"4881 Clement Street",Norcross,GA,30093,33.960536,-84.142861,false
+Ruby,Rice,76,"2062 Snyder Avenue",Charlotte,NC,28209,35.165979,-80.826979,true
+James,Gales,49,"4006 Haul Road","Daly City",CA,94015,37.75014,-122.471074,true
+Sandra,Julian,60,"3870 Bastin Drive",Newark,PA,19714,39.591828,-75.681375,false
+William,Watts,19,"15 Ferrell Street",Duluth,MN,55802,46.797008,-92.148533,true
+Nancy,Holcomb,40,"4989 Center Avenue",Fresno,CA,93711,36.902878,-119.914409,false
+Ryan,Newcomb,58,"3487 Thompson Drive","San Jose",CA,95131,37.390797,-121.854273,true
+John,Bunch,39,"689 Bird Street",Farmington,NM,87401,36.397103,-108.297294,false
+Lupe,Patterson,56,"2968 Abner Road","Stevens Point",WI,54481,44.509534,-89.437144,true
+Kristin,Moody,19,"2681 Woodland Avenue",Metairie,LA,70001,29.946653,-90.23944,false
+Charity,Cushing,72,"4069 Young Road","Idaho Falls",ID,83402,43.441162,-112.218908,true
+Nancy,Walters,40,"172 Pinnickinnick Street","Bound Brook",NJ,08805,40.476661,-74.607974,false
+Sarah,Acker,83,"3917 Hershell Hollow Road","Johnson City",TN,37615,36.424648,-82.356678,true
+Martha,Hager,33,"4646 Sycamore Street","San Jose",CA,95113,37.397403,-121.96798,true
+Rick,Kowal,22,"37 Bolman Court",Champaign,IL,61820,40.077149,-88.294216,true
+Barbara,Putnam,50,"934 Terry Lane",Orlando,FL,32810,28.687112,-81.381777,true
+Samuel,Ybarra,44,"3331 West Virginia Avenue","North Greenbush",NY,12144,42.748118,-73.743548,true
+Errol,Fields,50,"3022 Rivendell Drive",Youngstown,OH,44507,41.079,-80.741592,false
+Sergio,Garcia,57,"1025 Public Works Drive","Ball Play",TN,37385,35.005111,-84.679383,false
+Melissa,Novak,45,"3274 Hanover Street","Garden City",NY,11530,40.717774,-73.691666,true
+Bernard,Crawford,29,"1040 Hall Place",Harleton,TX,75651,32.594175,-94.515252,true
+Elizabeth,Buckner,25,"3056 Drummond Street",Riverdale,NJ,07442,41.081622,-74.357229,false
+Gloria,Peterson,64,"1332 Abner Road",Wausau,WI,54401,45.047833,-89.754945,false
+Christina,Davis,25,"1766 Joanne Lane","North Billerica",MA,01862,42.626538,-71.289885,true
+Lula,Baker,21,"332 Holden Street","San Diego",CA,92103,32.79343,-117.09905,true
+Thomas,Swopes,23,"1077 New Street",Juntura,OR,97911,43.804804,-118.023359,false
+Mack,Gammon,44,"2562 Edington Drive",Norcross,GA,30091,33.877103,-84.170634,false
+Carolyn,Hoover,82,"2618 Hurry Street",Marshall,VA,27115,38.831643,-77.928571,false
+Jason,Taylor,79,"4274 Keyser Ridge Road",Greensboro,NC,27407,36.088394,-79.916718,true
+Jason,Huffman,85,"458 Kidd Avenue",Wasilla,AK,99654,61.561654,-149.496376,true
+Drema,Greene,25,"2037 Hide A Way Road","San Jose",CA,95136,37.23653,-121.790425,false
+Adelina,Herrera,71,"3959 Bottom Lane",Williamsville,NY,14221,43.00236,-78.767818,false
+Robert,Henderson,85,"1468 Stone Lane",Philadelphia,PA,19103,39.941526,-75.207699,true
+Hazel,Miller,65,"3996 Asylum Avenue","New Haven",CT,06510,41.290506,-72.965568,true
+Mary,Pieper,79,"4910 Parrish Avenue",Kerrville,TX,78028,30.125613,-99.077521,true
+Jessica,Roberts,25,"3081 Coal Road",Pittston,PA,18640,41.229921,-75.751692,true
+James,Jacques,69,"3527 Sundown Lane",Austin,TX,78746,30.315593,-97.789755,false
+Linda,Anderson,46,"2123 Austin Avenue","Lumber City",GA,31549,31.858715,-82.619002,true
+Marion,Bentley,67,"3711 Ottis Street","Oklahoma City",OK,73102,35.463462,-97.534047,true
+Charles,Adams,34,"3321 Snyder Avenue",Charlotte,NC,28202,35.265808,-80.915167,false
+Melissa,Paxton,30,"4709 Par Drive","Los Angeles",CA,90017,34.054183,-118.226694,true
+Gladys,Whitehead,20,"4458 Heavner Court",Levittown,NY,11756,40.766551,-73.492306,true
+John,Schulz,60,"3762 Prospect Street",Camden,NJ,08102,39.950343,-75.155063,true
+Dominique,Gallardo,31,"1593 Rockwell Lane","Elizabeth City",NC,27909,36.298192,-76.209681,true
+Maxine,Butler,73,"3568 Straford Park",Owingsville,KY,40360,38.070852,-83.690687,true
+Charles,Jones,50,"24 Settlers Lane","New York",NY,10016,40.744195,-73.98596,true
+Casey,Owens,49,"2418 Eagle Lane",Brainerd,MN,56401,46.377653,-94.120671,true
+Jeff,Wagner,35,"1821 Wayback Lane",Hicksville,NY,11612,40.688284,-73.550332,false
+Doris,Ervin,81,"2624 Boring Lane","San Francisco",CA,94107,37.797354,-122.387216,true
+Timothy,Clark,79,"1679 Crestview Manor",Mccordsville,IN,46055,39.88319,-85.807788,true
+Anne,Hammond,24,"1296 Stone Lane",Springfield,PA,19064,40.008713,-75.347625,true
+Phyllis,Breeding,71,"4901 Cambridge Place",Sykesville,MD,21784,39.338186,-76.960385,true
+Ulysses,Silva,39,"3771 Tetrick Road","Haines City",FL,33845,28.09707,-81.544887,true
+Antonio,Emery,48,"1140 Armbrester Drive",Irvine,CA,92614,33.67001,-117.904819,true
+Lamar,Kulp,77,"138 Half and Half Drive","West Palm Beach",FL,33410,26.702036,-80.033405,true
+Anita,Brown,46,"3229 Holt Street","Fort Lauderdale",FL,33301,26.140075,-80.207849,true
+Janna,Leon,70,"3615 Woodrow Way",Livingston,TX,77351,30.636359,-94.91445,false
+Mark,Martin,68,"3608 Melm Street",Providence,RI,02908,41.799398,-71.46786,true
+Gerri,Ledoux,22,"3330 Blair Court","De Witt",MO,64639,39.391631,-93.256462,false
+Michael,Brown,69,"333 Burnside Court",Phoenix,AZ,85003,33.440674,-112.098657,true
+Brittany,Montalvo,20,"3497 Armory Road","Lake Waccamaw",NC,28450,34.279437,-78.523841,true
+Philip,Madison,34,"95 Rosebud Avenue","Tracy Ferry",AR,72653,36.248975,-92.225652,true
+Tonya,Conaway,42,"1009 Sampson Street","Idaho Springs",CO,80452,39.729477,-105.592256,true
+Marilyn,Henslee,34,"4370 Kelly Drive","New Martinsville",WV,26155,39.702962,-80.733916,true
+John,Price,29,"4893 Center Street",Fresno,CA,93706,36.59629,-119.844698,true
+Annett,Millhouse,25,"473 Rockford Mountain Lane",Brookfield,WI,53005,43.147156,-87.998356,false
+Rachael,Portwood,69,"514 Fairmont Avenue",Lexington,MO,64067,39.181596,-93.779895,true
+David,Hoskins,81,"3851 Elm Drive","New York",NY,10004,40.594137,-73.935793,false
+Edna,Ledford,82,"3379 High Meadow Lane","Pleasant Mount",PA,18453,41.824562,-75.415035,true
+Nathan,Woods,44,"3200 Petunia Way",Birmingham,AL,35209,33.516348,-86.75198,false
+Terry,Landon,43,"4288 Allison Avenue",Norfolk,VA,23504,36.839079,-76.170541,true
+Eileen,Cooke,79,"1047 Aspen Court","Hyde Park",MA,02136,42.259872,-71.154712,true
+Jon,Schmidt,67,"497 Lauren Drive",Platteville,WI,53818,42.767205,-90.579991,true
+Andrew,Slaughter,35,"4314 Loving Acres Road","Fort Worth",TX,76110,32.620645,-97.336741,true
+Melissa,Wilson,37,"2710 Ashcraft Court","La Mesa",CA,91941,32.766637,-117.060441,true
+William,Marshall,34,"1258 Sampson Street",Denver,CO,80202,39.736489,-104.960894,true
+Charles,Thurman,44,"1035 Wilson Street","Los Angeles",CA,90017,34.137899,-118.266644,false
+Karl,Bond,47,"2564 Circle Drive",Houston,TX,77063,29.652673,-95.514056,false
+Hee,Arbuckle,80,"4545 Allison Avenue",Chesapeake,VA,23322,36.681382,-76.198226,true
+Loma,Herndon,77,"4108 Breezewood Court",Marienthal,KS,67863,38.46368,-101.336345,true
+Jamie,Paez,19,"4438 Ross Street",Cambridge,MA,02141,42.32619,-71.002919,true
+Gilbert,Bronk,83,"1545 Black Stallion Road",Winchester,KY,40391,37.985304,-84.226251,true
+John,Province,20,"814 Emily Drive",Columbia,SC,29201,34.062824,-80.939715,true
+Annie,Kirtley,59,"3500 Bassell Avenue",Morrilton,AR,72110,35.248011,-92.674958,false
+Christopher,Bennett,20,"3225 Glenview Drive","Corpus Christi",TX,78401,27.707291,-97.437654,true
+Clement,Glover,42,"1130 Aviation Way","Los Angeles",CA,90089,33.755699,-118.324972,true
+Rosann,Nash,20,"2685 Mattson Street","Forest Grove",OR,97116,45.485357,-123.098008,true
+Daniel,Oakley,28,"3146 Ray Court",Fayetteville,NC,28305,35.095429,-78.856168,true
+Jorge,Cronin,76,"4736 Irving Place","Saint Louis",MO,63146,38.770462,-90.541834,true
+Migdalia,Hunter,52,"3127 Robinson Court",Southfield,MI,48075,42.545514,-83.216661,true
+Maria,Meyers,35,"4429 Crummit Lane",Omaha,NE,68137,41.183849,-96.140078,true
+Jermaine,White,44,"4674 Frederick Street","El Paso",TX,79901,31.7203,-106.521385,true
+Cheryl,Watson,61,"948 Saint Clair Street",Clarksdale,MS,38614,34.218871,-90.580861,true
+Todd,Lang,79,"4239 Timberbrook Lane",Greeley,CO,80631,40.449257,-104.778528,true
+Mary,Hobbs,80,"2390 Tenmile","San Diego",CA,92121,32.904392,-117.171844,true
+Adriane,Garcia,45,"3915 Edgewood Road",Bradley,AR,71826,33.149236,-93.767267,true
+Randall,Gordon,82,"1669 Bird Street","Las Cruces",NM,88001,32.217212,-106.802862,true
+James,Whitehouse,28,"2602 Twin Oaks Drive","Grand Rapids",MI,49503,42.879813,-85.735427,true
+Lillie,Gray,47,"2117 Hide A Way Road","San Jose",CA,95129,37.248915,-121.912678,false
+Kevin,Philpot,81,"1015 Middleville Road",Pasadena,CA,91101,34.147522,-118.147146,false
+Delores,Hanks,41,"2812 Brooklyn Street",Madison,VA,22727,38.415365,-78.350362,true
+Brenda,Boone,44,"2022 Gordon Street","Los Angeles",CA,90017,33.962639,-118.299877,true
+Edward,Johnston,47,"1655 Frederick Street","Desert Haven",TX,79837,29.56641,-98.603471,true
+William,Rodriguez,82,"1369 Goosetown Drive",Asheville,NC,28801,35.54168,-82.549274,false
+Edna,Sweeney,58,"1963 Musgrave Street","Oklahoma City",OK,73102,35.428157,-97.524589,true
+Maureen,Lucas,24,"4274 Breezewood Court",Emporia,KS,66801,38.340973,-96.197744,true
+Helena,Harrison,80,"1496 Red Dog Road",Charlotte,NC,28202,35.290169,-80.906076,true
+Jane,Skidmore,35,"2557 Cunningham Court",Birmingham,MI,48011,42.512636,-83.220607,true
+Kenneth,Rose,56,"161 Poplar Lane",Doral,FL,33178,25.767904,-80.279422,true
+Rory,Drakes,21,"2661 Fulton Street",Glenville,WV,26351,38.894344,-80.959857,true
+Kari,Chafin,78,"1527 Prospect Valley Road",Irvine,CA,92614,33.668701,-117.879298,true
+Danielle,Dominguez,69,"729 Shearwood Forest Drive",Concord,NH,03301,43.247691,-71.475097,true
+Sandra,Hoy,50,"3610 Jewell Road","Saint Paul",MN,55104,44.883802,-93.155657,true
+Lisa,Clayton,31,"781 North Avenue",Bradshaw,NE,68319,40.925272,-97.708066,true
+Penelope,Mike,32,"3771 Laurel Lane",Midland,TX,79703,31.878559,-102.174938,false
+Robert,Heath,46,"3939 Blue Spruce Lane",Manor,MD,21111,38.349725,-76.71109,true
+Cody,Burns,59,"2431 Lincoln Drive",Harrisburg,PA,17111,40.191591,-76.885062,false
+Henry,Rodriguez,70,"288 Byrd Lane",Albuquerque,NM,87108,35.107112,-106.532105,true
+Edwin,Blocker,57,"375 Hood Avenue","San Diego",CA,92128,33.019359,-117.165843,true
+Claudia,Harrington,26,"2495 Badger Pond Lane",Tampa,FL,33610,27.907142,-82.315858,true
+Salvatore,Green,52,"1083 Isaacs Creek Road",Paris,IL,61944,39.624033,-87.811806,true
+Jeffrey,McMahon,54,"4717 Dog Hill Lane",Hiawatha,KS,66434,39.78292,-95.461712,true
+Denise,Miller,77,"409 Bell Street","New York",NY,10038,40.784365,-73.931969,true
+Maricela,Kurtz,26,"2156 Oliver Street","Fort Worth",TX,76102,32.671187,-97.394992,false
+Marisol,Fleming,72,"2191 Agriculture Lane",Homestead,FL,33030,25.519825,-80.588882,true
+Tamekia,Naumann,30,"1223 Barnes Street","Altamonte Springs",FL,32701,28.683686,-81.441555,true
+Casey,Jones,30,"1194 Hickory Heights Drive",Baltimore,MD,21202,39.22115,-76.514245,true
+Charles,Glass,57,"165 Elk Creek Road",Fayetteville,GA,30214,33.572033,-84.562017,true
+Mae,Kendrick,32,"3980 Tail Ends Road",Milwaukee,WI,53202,43.134991,-87.857665,true
+Thomas,Iglesias,83,"529 Hickman Street","Rolling Meadows",IL,60008,42.111471,-88.074694,true
+Lisa,Hardy,78,"4941 Hickory Ridge Drive","Las Vegas",NV,89119,36.019485,-115.233875,true
+Misty,Young,67,"3616 Waldeck Street",Arlington,TX,76011,32.770547,-97.157628,true
+Jerry,Cordova,69,"3036 Platinum Drive",Crafton,PA,15205,40.513339,-80.15525,true
+Justin,Creech,23,"4809 George Avenue",Mobile,AL,36608,30.583143,-88.314391,true
+Alfred,Baugh,48,"1164 Owen Lane","Howard City",MI,49329,43.409521,-85.460652,true
+Fiona,Duong,24,"1599 Whaley Lane",Oconomowoc,WI,53066,43.140903,-88.582878,false
+Reinaldo,Dickinson,32,"2625 East Avenue",Phoenix,AZ,85040,33.416572,-112.103434,true
+Michelle,Valentin,74,"2478 Cityview Drive",Bensalem,PA,19020,40.132414,-74.98853,true
+Aaron,Jackson,48,"1869 Zappia Drive",Covington,KY,41011,39.075432,-84.496738,true
+Troy,Calabrese,33,"2100 Oakridge Lane",Macon,GA,31201,32.878349,-83.607481,true
+Sharon,Parsons,64,"391 Butternut Lane",Kinmundy,IL,62854,38.76795,-88.815393,true
+Harold,Weathersby,36,"3002 Sunset Drive",Jonesboro,AR,72401,35.982517,-90.583212,true
+Chester,Walker,38,"4184 Frum Street",Nashville,TN,37211,36.098946,-86.653769,false
+Ann,Stephenson,77,"4127 Hillview Street",Sumter,SC,29150,33.80542,-80.366165,true
+Raymond,Gomez,76,"1867 Atha Drive",Castaic,CA,91310,34.545995,-118.780097,true
+Dolores,Akers,69,"1528 Farnum Road","New York",NY,10007,40.754392,-73.936939,false
+Eric,McDermott,23,"2671 Sigley Road",Hays,KS,67601,38.907967,-99.315126,true
+Graham,Pearson,77,"1537 Roosevelt Road",Emporia,KS,66801,38.420766,-96.177991,false
+Deborah,Curry,78,"2395 Hidden Meadow Drive",Page,ND,58064,47.211308,-97.651182,true
+Donald,Rodriquez,84,"2438 Upland Avenue",Toledo,OH,43604,41.706151,-83.519316,false
+Julia,Roberts,80,"2541 Grand Avenue",Orlando,FL,32805,28.610174,-81.363744,true
+James,Ochoa,31,"962 Rardin Drive","San Francisco",CA,94104,37.847033,-122.448182,true
+Johnny,Fusco,80,"2080 Meadow Lane","San Jose",CA,95113,37.344079,-121.921078,true
+Nicholas,Jones,76,"1935 Corpening Drive",Detroit,MI,48226,42.270284,-82.979069,true
+David,Krueger,76,"4401 Maple Street","Los Angeles",CA,90017,34.017618,-118.280624,true
+James,Hoyle,57,"979 Olive Street",Jenera,OH,45841,40.947599,-83.648461,true
+Carlos,Brown,66,"3697 Carson Street",Carlsbad,CA,92009,33.127101,-117.331965,true
+Lynn,Galvan,33,"186 Cook Hill Road",Stamford,CT,06902,41.137446,-73.581826,true
+Eddie,Eastman,84,"1772 Cabell Avenue",Alexandria,VA,22301,38.918486,-77.109708,true
+Lillie,Spencer,46,"2769 Raintree Boulevard",Kokomo,IN,46901,40.532505,-86.108226,false
+Luba,Hicks,23,"3336 Matthews Street",Campus,IL,60920,40.943098,-88.388592,true
+Edward,Weddle,58,"4275 Arbor Court",Casper,WY,82601,42.98482,-106.464368,true
+Amanda,McRoberts,84,"1119 Hillcrest Avenue",Marshfield,MA,02050,42.080804,-70.732457,true
+Anthony,Walker,81,"4189 Friendship Lane","Santa Clara",CA,95054,37.339727,-122.052032,true
+Margaret,Fisher,47,"2919 Barrington Court","Pine Bluff",AR,71601,34.225534,-91.880803,false
+Chris,Krueger,23,"1380 Lucky Duck Drive",Gibsonia,PA,15044,40.63643,-79.858666,true
+Norma,Jackson,56,"4787 Stark Hollow Road",Avon,CO,81620,39.594506,-106.563258,true
+David,Patterson,65,"2355 Center Avenue",Fresno,CA,93721,36.759545,-119.842155,false
+Rickey,Garcia,25,"386 Abia Martin Drive",Ronkonkoma,NY,11779,40.817526,-73.036406,false
+Joseph,Caffrey,66,"2866 Moore Avenue",Dallas,TX,75204,32.775474,-96.771134,true
+Eugene,Cormier,49,"2851 Duffy Street",Dyer,IN,46311,41.453099,-87.418044,true
+Jessie,Bailey,39,"2338 Reeves Street",Forestville,WI,54213,44.726551,-87.548401,false
+Nicole,Matta,69,"859 Ritter Avenue","New Baltimore",MI,48047,42.681673,-82.8484,true
+Margaret,Roloff,60,"1113 Crummit Lane",Omaha,NE,68137,41.275216,-96.147693,true
+Willie,Lee,76,"1654 Forest Avenue",Mineola,NY,11501,40.692452,-73.617277,true
+Kyle,Trudeau,75,"2374 Goldleaf Lane","Jersey City",NJ,07304,40.638571,-74.04892,true
+Frederick,Johnson,19,"3752 Thompson Street",Irvine,CA,92614,33.729474,-117.92434,true
+Amanda,Herman,58,"1823 Kovar Road",Cambridge,MA,02142,42.445638,-71.089637,false
+Warren,Washington,78,"4479 Don Jackson Lane",Detroit,MI,48226,42.235838,-83.02761,false
+Andrew,Harris,54,"1434 Bingamon Branch Road",Northbrook,IL,60062,42.182186,-87.791748,true
+Carl,Saiz,70,"3838 Milford Street","West Lebanon",NH,03784,43.626609,-72.339185,false
+Connie,Foster,82,"2010 Hershell Hollow Road",Blountville,TN,37617,36.442844,-82.473718,true
+Margaret,Pritchett,76,"3395 Bailey Drive","Cedar Rapids",IA,52401,42.066438,-91.600977,true
+Jason,Tennant,38,"844 Dola Mine Road",Morrisville,NC,27560,35.930253,-78.784727,true
+Cheri,Garcia,63,"2779 Heavner Court",Lynbrook,NY,11563,40.587431,-73.654771,false
+Michael,Valdez,28,"1626 West Street","Grand Rapids",MI,49508,42.846339,-85.617495,true
+Joseph,Crutcher,81,"4601 Walton Street",Provo,UT,84606,40.296274,-111.608491,false
+Mary,Wilson,30,"906 Mudlick Road",Spokane,WA,99218,47.765579,-117.391252,false
+Gabriel,Rayburn,50,"3189 Nelm Street","Saint Louis",MO,63146,38.777505,-90.534686,false
+Cecile,Heaton,37,"1986 John Avenue",Jackson,MI,49201,42.222212,-84.239144,true
+Audrey,McBride,70,"273 Masonic Hill Road","Little Rock",AR,72210,34.629832,-92.504984,false
+Kary,Kirk,19,"2441 Cottonwood Lane","Grand Rapids",MI,49503,42.944058,-85.684919,false
+Ronald,Dew,39,"621 Ridge Road",Wichita,KS,67202,37.659259,-97.428716,false
+Jose,Cruz,43,"4117 Camden Place",Dillon,SC,29536,34.4635,-79.406605,true
+Annie,Flanagan,73,"4521 Lords Way",Yorkville,TN,38389,36.110908,-89.090492,true
+Jane,Wilkinson,55,"1796 Walnut Avenue",Lyndhurst,NJ,07071,40.697914,-74.05882,true
+Donald,Belton,75,"1628 Wood Street",Metairie,LA,70001,29.969598,-90.264272,true
+Nicole,Oliver,58,"2262 Selah Way","South Burlington",VT,05403,44.456258,-73.129962,true
+Darlene,Ruder,20,"2391 Hinkle Deegan Lake Road",Lexington,KY,40505,38.07282,-84.425563,true
+Dennis,Leo,38,"3537 Peck Street",Manchester,NH,03103,42.998855,-71.517887,true
+William,Deleon,20,"2038 Rainy Day Drive",Cambridge,MA,02141,42.278724,-71.012344,false
+William,Murphy,20,"3341 Franklin Street",Montgomery,AL,36104,32.449988,-86.262029,true
+Lois,Mathison,63,"1873 Meadowview Drive",Edinburg,VA,22824,38.748471,-78.602212,true
+Fred,Lipscomb,85,"1720 Parkway Street","Lucerne Valley",CA,92356,34.549051,-116.843501,true
+Denise,Higgins,57,"3234 Buena Vista Avenue",Roseburg,OR,97470,43.1402,-123.466544,true
+Alfonso,Sewell,68,"4232 Peaceful Lane","Maple Heights",OH,44137,41.49861,-81.599419,true
+Ted,Rice,79,"2947 Freedom Lane",Stockton,CA,95202,37.989577,-121.318417,false
+Edie,Kuhn,54,"2117 Willison Street",Minneapolis,MN,55415,44.968994,-93.219136,true
+Josefina,Castillo,67,"4665 Oak Way",Western,NE,68464,40.417026,-97.2748,false
+Terry,Driskell,38,"464 Barnes Avenue",Batavia,OH,45103,39.027067,-84.132154,true
+Andres,Wilson,53,"4851 Joyce Street",Greenville,NC,27858,35.556095,-77.331051,true
+Robert,Lawrence,82,"1173 Mutton Town Road",Vancouver,WA,98663,45.629501,-122.659237,true
+Shirley,McGill,40,"3844 Little Acres Lane",Champaign,IL,61820,40.057953,-88.165932,true
+Dick,Garcia,53,"3790 Meadow View Drive",Windsor,CT,06095,41.917882,-72.717255,true
+Maurice,Henderson,26,"2339 Roosevelt Wilson Lane","Diamond Bar",CA,91765,33.930498,-117.910476,true
+Timothy,Moore,73,"1521 Kyle Street","Grand Island",NE,68801,40.980919,-98.226619,true
+Margaret,Garcia,63,"4661 Locust View Drive",Fremont,CA,94539,37.59571,-121.830939,false
+Gerard,Welsch,48,"2711 Victoria Court",Rumford,ME,04276,44.567222,-70.570628,false
+Emma,Brown,66,"2205 Lincoln Street",Camden,NJ,08102,39.985617,-75.049628,true
+Timothy,Golden,34,"1409 Thompson Street",Paramount,CA,90723,33.91053,-118.264785,false
+Constance,Tate,48,"1307 Asylum Avenue",Birmingham,AL,35203,33.540075,-86.877276,true
+Andre,Linke,82,"3356 Duck Creek Road","Palo Alto",CA,94301,37.425746,-122.182048,true
+Ian,Liddell,34,"4436 Emily Drive","Rock Hill",SC,29730,34.908472,-80.946684,false
+Karen,Austin,82,"876 Williams Mine Road",Belleville,NJ,07109,40.738081,-74.09381,true
+Linda,Waters,80,"2335 Oakwood Circle","Los Angeles",CA,90017,33.955953,-118.34872,true
+Sophia,McCarter,20,"1340 Tully Street",Detroit,MI,48224,42.41162,-83.01664,true
+Duane,Hamilton,44,"1736 Summit Park Avenue",Southfield,MI,48075,42.470636,-83.316913,true
+William,Flanagan,23,"4294 Don Jackson Lane",Honolulu,HI,96826,21.386765,-157.826362,true
+Ann,Estelle,44,"4471 Camel Back Road",Tulsa,OK,74145,36.11136,-95.868432,true
+Kelly,Reilly,67,"3475 Pinewood Drive","Arlington Heights",IL,60005,42.060835,-88.032039,true
+Kenneth,Moore,24,"1701 Charla Lane",Dallas,TX,75207,32.808278,-96.750574,false
+William,Fisher,79,"3930 Green Hill Road",Fayetteville,AR,72701,35.90357,-93.938304,true
+Juan,Bott,25,"1395 Romano Street",Burlington,MA,01803,42.552356,-71.173477,true
+Loretta,Thomas,30,"2511 Ingram Street",Sidney,OH,45365,40.357996,-84.243356,true
+Natalie,Tirado,64,"2075 Briarwood Road",Washburn,MO,65772,36.662689,-93.970017,true
+Lorraine,Putman,56,"1566 Wilkinson Street",Nashville,TN,37211,36.014084,-86.647131,true
+Sara,Villanveva,28,"3705 Williams Lane",Wichita,KS,67218,37.613905,-97.205993,false
+Martina,Sain,85,"3122 Pine Tree Lane",Vienna,MD,22182,38.990661,-77.239848,true
+Larue,Reyes,83,"2120 Commerce Boulevard",Omaha,NE,68114,41.257079,-96.024996,false
+Lisa,Carter,53,"3702 Larry Street","San Francisco",CA,94143,37.73091,-122.466868,true
+Debra,Viveros,77,"1551 New Creek Road",Huntsville,AL,35802,34.666049,-86.642587,false
+Edwin,Wood,38,"2232 Duck Creek Road","San Francisco",CA,94107,37.752063,-122.338979,false
+Vera,Seals,62,"39 Khale Street",Burgess,SC,29576,33.664079,-79.079537,true
+Ryan,Tope,41,"265 Levy Court",Bedford,MA,01730,42.400996,-71.186077,false
+Terry,Bey,55,"1569 Baker Avenue","Farmers Branch",TX,75244,32.841917,-96.840127,false
+Amy,Monroe,81,"2377 Kovar Road",Needham,MA,02192,42.328991,-71.214678,true
+Deborah,Miller,46,"2776 Highland View Drive",Sacramento,CA,95817,38.590508,-121.375081,false
+Jackie,Daniels,77,"4913 Douglas Dairy Road",Duffield,VA,24244,36.762624,-82.881647,true
+Jackson,Shaw,70,"3162 Sunburst Drive","Fort Myers",FL,33901,26.589569,-81.810741,false
+Lavern,Stubbs,22,"3216 Melville Street",Jackson,TN,38301,35.631405,-88.94631,true
+Ollie,Fitch,80,"1132 Maple Street","Los Angeles",CA,90017,34.081667,-118.241846,true
+David,Hughes,84,"4672 Honeysuckle Lane",Seattle,WA,98133,47.705756,-122.332631,true
+George,Martin,52,"485 Vine Street","Arlington Heights",IL,60004,42.14583,-87.961515,true
+Frank,Dunn,21,"1357 Stratford Court",Oxford,NC,27565,36.418785,-78.586853,true
+Betty,Klatt,70,"1920 Hartland Avenue",Appleton,WI,54913,44.383904,-88.501903,true
+Robert,Buck,36,"3071 Trymore Road",Sanborn,MN,56083,44.261081,-95.203414,true
+Bruce,Haun,83,"1579 Emeral Dreams Drive",Oglesby,IL,61348,41.265078,-89.132953,true
+Tara,Savage,78,"1518 Mayo Street",Cincinnati,KY,45202,39.015254,-84.532064,true
+Jean,Sprenger,64,"4582 Coburn Hollow Road",Carlock,IL,61725,40.698977,-89.051435,true
+Carolyn,Burgan,84,"1520 Gore Street",Houston,TX,77002,29.765713,-95.315718,false
+Jennie,Dixon,71,"2772 Masonic Drive",Bozeman,MT,59715,45.777485,-110.852072,false
+Elizabeth,Fitting,53,"3696 Longview Avenue","New York",NY,10011,40.746109,-73.969251,false
+Danny,Read,71,"369 Melm Street",Providence,RI,02905,41.826792,-71.416102,true
+Frederick,Conrad,84,"1217 Melm Street","North Providence",RI,02911,41.836903,-71.530274,false
+Phillip,Morales,26,"1880 Paul Wayne Haggerty Road","New Orleans",LA,70131,29.973374,-90.036116,true
+Curt,Pittman,71,"1464 Hott Street",Prague,OK,74864,35.596801,-96.626614,true
+Goldie,Sosa,50,"437 Washington Avenue",Jackson,MS,39213,32.398883,-90.307988,true
+Matthew,Crowley,53,"112 Steele Street",Northbrook,IL,60062,42.048844,-87.907989,false
+Henry,Preuss,41,"2710 Franklin Avenue","Corpus Christi",TX,78412,27.64611,-97.432196,false
+Felipe,Crepeau,40,"2850 Washington Street","Corpus Christi",TX,78476,27.677895,-97.390344,true
+William,Griego,58,"2171 Dark Hollow Road",Briggsville,WI,53920,43.701021,-89.631711,false
+Grace,Swanson,45,"1266 Stratford Court",Morrisville,NC,27560,35.866542,-78.906584,true
+Wendy,Benton,29,"602 Long Street",Ocala,FL,34471,29.158857,-82.036796,true
+Todd,Preece,70,"3432 Half and Half Drive","West Palm Beach",FL,33401,26.781889,-80.017609,true
+Irene,Hart,54,"4239 Dennison Street",Sonora,CA,95370,38.01819,-120.48994,true
+Merrill,Thompson,40,"1382 Benson Street",Niagara,WI,54151,45.647317,-88.089705,false
+Louis,McNeill,64,"2492 Jerry Dove Drive","Daniel Island",SC,29492,32.818244,-79.996446,true
+Joseph,Hardin,28,"1743 Briarhill Lane",Youngstown,OH,44509,41.031694,-80.707464,true
+Bernice,Knapp,41,"4895 Upton Avenue","South China",ME,04358,44.321164,-69.576358,true
+Jared,Smith,19,"1560 Harter Street",Peebles,OH,45660,39.018594,-83.417616,true
+James,Gomez,74,"3041 Turnpike Drive",Huntsville,AL,35802,34.703993,-86.556767,true
+Phyllis,Emberton,83,"3558 Timbercrest Road","White Mountain",AK,99784,64.553207,-163.757526,true
+William,McCaffery,78,"3892 Bolman Court",Bloomington,IL,61701,40.454428,-89.062878,false
+Monica,Campos,58,"4150 Pyramid Valley Road","Cedar Rapids",IA,52401,41.985275,-91.596513,true
+Ashley,McCollum,47,"1515 Frum Street",Nashville,TN,37212,36.119103,-86.819323,false
+Ramona,Mills,52,"3624 Smithfield Avenue",Amarillo,TX,79101,35.253403,-101.865395,true
+Daniel,Ku,33,"2165 Lake Road","Hopewell  Mercer",NJ,08525,40.420561,-74.878287,false
+Alma,Riley,34,"4917 Leverton Cove Road",Springfield,MA,01103,42.123249,-72.53943,true
+Richard,Salley,19,"1964 Roosevelt Road",Wichita,KS,67202,37.705567,-97.344803,true
+Geneva,Russell,62,"3216 Raccoon Run",Seattle,WA,98109,47.715431,-122.360994,true
+Victoria,Bolinger,72,"4914 Primrose Lane",Endeavor,WI,53930,43.714845,-89.417176,true
+Bonita,Gillam,26,"3337 East Avenue",Scottsdale,AZ,85253,33.66073,-111.891112,false
+Mikel,Valenza,75,"1270 Parkway Drive",Tucson,AZ,85704,32.24944,-111.070787,true
+Joanne,Lam,78,"625 Weekley Street","San Antonio",TX,78023,29.376415,-98.599847,true
+Karen,Costanza,31,"621 Essex Court",Brattleboro,VT,05301,42.889702,-72.749145,true
+Jessica,Kaplan,57,"3899 Hidden Pond Road","Old Hickory",TN,37138,36.299257,-86.509452,true
+Amy,Porter,73,"3316 West Fork Drive","Hallandale Beach",FL,33009,26.07903,-80.235762,true
+George,David,50,"4776 Friendship Lane",Sunnyvale,CA,94086,37.436269,-121.94905,true
+Victor,Lee,37,"2603 Keyser Ridge Road",Greensboro,NC,27406,35.980222,-79.70843,true
+Cathy,Barnett,59,"928 C Street",Cambridge,MA,02141,42.395698,-71.122363,true
+Roberta,Wilcox,83,"1983 Locust Court","Long Beach",CA,90808,33.767298,-118.0696,true
+Tierra,Oakley,81,"1450 Concord Street",Matthews,NC,28105,35.081261,-80.685686,false
+Ella,Tibbs,25,"2302 Don Jackson Lane",Honolulu,HI,96826,21.248963,-157.767226,false
+Sandra,Jackson,48,"3778 Parker Drive",Cleveland,OH,44114,41.476964,-81.617593,true
+Barbara,Salinas,83,"806 Gateway Avenue",Bakersfield,CA,93301,35.45699,-119.037254,true
+Irene,Clark,42,"4663 Simons Hollow Road",Bloomsburg,PA,17815,41.073977,-76.486815,true
+Edward,Garces,77,"4207 Sycamore Circle",Bismarck,ND,58506,46.765744,-100.791652,true
+Lynn,Barber,62,"1611 Pine Tree Lane",Beltsville,MD,20705,38.994526,-76.883529,true
+Sheila,Harness,71,"1847 Duff Avenue",Brattleboro,VT,05301,42.931455,-72.593545,true
+Tony,Breuer,81,"1607 Whitetail Lane",Dallas,TX,75207,32.870571,-96.811188,false
+Richard,Day,82,"4042 Johnson Street",Raleigh,NC,27604,35.851196,-78.513535,true
+Eva,Carmack,60,"103 Meadowbrook Mall Road",Torrance,CA,90501,33.903609,-118.301261,true
+Frank,Burney,47,"2007 Marcus Street",Huntsville,AL,35816,34.764146,-86.648559,false
+Nelson,Engman,68,"1950 Joes Road","North Greenbush",NY,12144,42.699812,-73.753802,true
+Annie,Kimbrough,35,"4074 Haymond Rocks Road",Yachats,OR,97498,44.30013,-124.009838,true
+Billy,Schmidt,58,"2667 Roosevelt Wilson Lane",Colton,CA,92324,34.072712,-117.332863,false
+Marcus,Holland,81,"3532 Pinchelone Street",Norfolk,VA,23505,36.875697,-76.353454,true
+Robert,White,51,"4832 Woodhill Avenue",Baltimore,MD,21202,39.239774,-76.649323,true
+Jacquie,Gutierrez,32,"4674 Steele Street","Elk Grove Village",IL,60007,42.022311,-88.083171,true
+Elizabeth,Rubin,65,"680 Horner Street","Cuyahoga Falls",OH,44221,41.100263,-81.398026,true
+Paul,Watkins,32,"1267 Victoria Street","Baton Rouge",LA,70801,30.534234,-91.155547,true
+John,Alford,32,"2996 Elk Rd Little",Hayden,AZ,85235,33.109773,-110.737855,true
+Carolyn,Tucker,40,"2612 West Fork Street",Helena,MT,59601,46.44944,-112.092272,false
+Gwendolyn,Parkinson,30,"2155 Maple Street","Los Angeles",CA,90017,33.975186,-118.275337,true
+John,Lees,43,"1858 Hazelwood Avenue","Des Moines",IA,50309,41.591007,-93.549801,false
+Quintin,Fullilove,58,"4834 Canis Heights Drive",Gardena,CA,90248,33.819518,-118.226946,true
+Edna,Blue,55,"3992 Apple Lane",Cordova,IL,61242,41.749565,-90.181948,true
+Antonio,Whitaker,46,"3601 Thrash Trail",Tyler,TX,75757,32.372353,-95.238166,true
+Anne,Copeland,65,"16 Frederick Street","El Paso",TX,79922,31.775166,-106.549221,true
+Charles,Hill,80,"4806 Pinnickinick Street",Seattle,WA,98161,47.507662,-121.866882,true
+Jenna,Bentley,28,"247 Crestview Terrace",Christine,TX,78012,28.774985,-98.563016,true
+Orval,Marshall,83,"3874 Wilkinson Street",Nashville,TN,37211,35.976679,-86.814335,true
+Elizabeth,Winter,52,"3564 Lake Forest Drive",Shawnee,KS,66214,38.969155,-94.742225,false
+Clifton,Larson,32,"2867 Berkley Street",Philadelphia,PA,19108,40.025446,-75.189154,true
+Erica,Avery,62,"807 Bingamon Branch Road",Deerfield,IL,60015,42.17747,-87.961099,true
+Shawn,Woods,77,"4642 Science Center Drive",Boise,ID,83716,43.47653,-115.912616,true
+Opal,Lagunas,47,"2628 Bobcat Drive",Beltsville,MD,20705,39.134363,-76.823278,true
+Cheryl,Jenkins,83,"688 Coal Road",Scranton,PA,18503,41.505298,-75.662245,true
+Ava,Malbrough,41,"1074 O Conner Street","Ocean Springs",MS,39564,30.478693,-88.778547,true
+Paul,Duncan,32,"565 Warner Street",Casper,WY,82601,43.182994,-106.449445,true
+Natalie,Kuhl,28,"3150 Hazelwood Avenue",Urbandale,IA,50322,41.693543,-93.812363,false
+Chong,Gaul,24,"3419 Patterson Road","Staten Island",NY,10301,40.547275,-74.106263,false
+Cynthia,Ramirez,48,"3718 Small Street","New York",NY,10021,40.854707,-74.045609,true
+Tracy,Worley,43,"271 Ryan Road",Chester,SD,57016,44.003539,-96.932513,false
+Beverlee,Corpus,33,"1537 Cardinal Lane",Champaign,IL,61820,40.103259,-88.238607,false
+Ella,Kinney,30,"2279 Hummingbird Way",Cambridge,MA,02141,42.276878,-71.05811,true
+Maureen,Beasley,35,"4782 Joy Lane",Glendale,CA,91204,34.173771,-118.360763,true
+Edward,Roseboro,24,"4334 Goldie Lane",Cincinnati,OH,45203,39.204689,-84.577368,true
+John,Nelson,20,"2650 Deer Haven Drive",Greenville,SC,29611,34.766505,-82.460356,true
+Bettie,Wills,20,"1691 Gorby Lane",Jackson,MS,39201,32.213339,-90.142499,true
+Stella,Oshields,54,"2346 Lilac Lane",Savannah,GA,31401,31.995277,-80.984179,true
+Leon,McGarry,66,"4720 Sampson Street",Denver,CO,80202,39.807566,-105.094985,false
+William,Harrelson,46,"959 Bingamon Road",Euclid,OH,44132,41.550352,-81.598755,false
+David,Silver,77,"329 Clarence Court",Walnut,CA,91789,34.091819,-117.842738,false
+Julian,Williams,35,"4764 Hillcrest Circle",Plymouth,MN,55441,45.093561,-93.449863,true
+Morgan,Cohrs,31,"4470 College Street",Atlanta,GA,30303,33.741005,-84.434295,true
+Sondra,Strahan,48,"2102 Deercove Drive",Philadelphia,PA,19121,40.018036,-75.107797,true
+Bryan,Maxson,74,"1954 Fire Access Road","High Point",NC,27260,35.867337,-79.997355,true
+Buddy,Grayson,63,"82 Buckhannan Avenue",Dolgeville,NY,13329,43.147524,-74.654595,true
+Blanche,Collins,52,"2266 Golden Ridge Road","Rouse Point",NY,12979,45.083779,-73.378342,true
+Ashley,Carroll,52,"3366 Orphan Road","Rock Falls",WI,54764,44.632123,-91.715558,true
+Mary,Harrel,55,"3181 Snider Street",Denver,CO,80216,39.727392,-104.893538,false
+Michael,Hix,75,"4255 Patterson Street",Houston,TX,77092,29.765022,-95.53486,false
+Pauline,Deslauriers,19,"4016 Cedar Lane",Brighton,MA,02135,42.251021,-71.145861,false
+Shawn,Tapia,42,"2506 Ryder Avenue",Bothell,WA,98011,47.811061,-122.234384,false
+Jaime,Patterson,27,"1207 Berry Street",Kim,CO,81049,37.388857,-103.393925,false
+Anthony,Taylor,24,"3881 Swick Hill Street",Houston,TX,77006,29.771346,-95.316925,true
+John,Bainbridge,72,"4201 Medical Center Drive",Sarasota,FL,34240,27.252807,-82.231915,false
+Angela,Keach,41,"4326 Pearl Street",Roseville,CA,95661,38.816423,-121.182249,false
+Ronald,Thurston,69,"3342 Walton Street","Salt Lake City",UT,84111,40.68154,-111.92628,false
+Kim,Lindsey,29,"149 Pride Avenue",Brooklyn,NY,11223,40.627106,-73.951775,true
+David,Tomlinson,42,"126 Eva Pearl Street","Baton Rouge",LA,70802,30.451943,-91.079951,true
+Sandy,Jordan,85,"3721 Rockford Mountain Lane",Oshkosh,WI,54901,44.096394,-88.519763,true
+Deanna,Broussard,66,"2330 Ritter Avenue","New Baltimore",MI,48047,42.591659,-82.718405,true
+Nathaniel,Pelletier,48,"991 Oak Way","Newman Grove",NE,68758,41.869995,-97.855864,true
+Cheri,Ward,32,"3053 Saint Marys Avenue",Owasco,NY,13021,42.9417,-76.382931,true
+Katherine,Bradley,66,"2682 Victoria Street","Baton Rouge",LA,70815,30.549255,-91.056781,true
+Amanda,Capetillo,49,"1365 Horner Street","Cuyahoga Falls",OH,44221,41.083493,-81.419124,true
+Betty,Crisp,26,"4237 Willis Avenue",Hastings,FL,32145,29.629702,-81.385325,true
+Jan,Watters,39,"4618 Patterson Fork Road","Burr Ridge",IL,60527,41.711674,-87.989219,true
+Louise,Gooding,20,"1190 Raoul Wallenberg Place","New Haven",CT,06510,41.394085,-72.992095,true
+Denise,Rivera,59,"4350 Edwards Street",Kinston,NC,28501,35.177958,-77.443866,true
+Robert,Joseph,67,"1061 Todds Lane","San Antonio",TX,78205,29.480313,-98.492716,true
+Vincent,Smith,73,"2376 Abia Martin Drive",Westbury,NY,11590,40.794058,-73.676697,true
+Emily,Tejada,36,"1771 Cody Ridge Road",Grandfield,OK,73546,34.278124,-98.78977,true
+Doreen,Jiminez,40,"2009 Hide A Way Road",Sunnyvale,CA,94086,37.332877,-121.996244,false
+Veronica,McAbee,54,"2486 Austin Secret Lane",Roosevelt,UT,84066,40.457065,-110.040093,true
+Stephen,Jones,46,"733 Walnut Street",Collinsville,MS,39325,32.622969,-88.93172,true
+Micheal,McDonald,59,"983 Dogwood Road",Phoenix,AZ,85012,33.46627,-112.080047,true
+Flora,Jones,25,"4684 Wescam Court",Quincy,MA,02169,42.15081,-71.020034,false
+Bessie,O'Connor,70,"3624 Hidden Pond Road",Nashville,TN,37013,36.192716,-86.688731,true
+Craig,Miller,28,"686 Cunningham Court",Birmingham,MI,48009,42.574033,-83.156635,true
+Berniece,Pinheiro,67,"3706 Rocket Drive",Minneapolis,MN,55406,44.866412,-93.246631,true
+Travis,Pierson,58,"4446 Hickory Heights Drive",Baltimore,MD,21202,39.30636,-76.538492,false
+Christopher,Bueno,67,"3048 Ridenour Street","Boca Raton",FL,33487,26.46005,-80.19287,true
+Robert,Messenger,69,"2363 Hickory Ridge Drive","North Las Vegas",NV,89032,36.145965,-115.173145,true
+Joseph,Perez,39,"539 Hart Ridge Road",Saginaw,MI,48601,43.360389,-83.848405,false
+Galen,Wolfram,30,"1211 Havanna Street","Level Cross",NC,27030,35.868118,-79.752009,false
+Bradley,Walsh,72,"2593 Whiteman Street",Camden,NJ,08102,39.899248,-75.078557,true
+Latoya,Tarpley,51,"3198 Lindale Avenue",Berkeley,CA,94704,37.828114,-122.179328,true
+Annie,Dickinson,57,"4895 Callison Lane",Hartly,DE,19953,39.125662,-75.766493,false
+Dorothy,Hollen,40,"4987 Tree Frog Lane","Kansas City",MO,64151,39.265089,-94.615107,false
+Anthony,Wilson,55,"3240 Elk Rd Little",Tucson,AZ,85716,32.180656,-110.866584,true
+Corinne,Babb,25,"4113 Frederick Street",Sacramento,CA,95814,38.500324,-121.502464,true
+Marta,Miller,74,"3313 Agriculture Lane",Perrine,FL,33157,25.647742,-80.435582,true
+Lovella,Smith,82,"1521 Woodland Drive",Cherokee,IA,51012,42.76848,-95.596341,true
+Darren,Seibert,57,"1879 Thomas Street",Chicago,IL,60601,41.960938,-87.544914,false
+William,Hardy,59,"787 Oliver Street","Fort Worth",TX,76102,32.69349,-97.243558,true
+Jerry,Salazar,62,"1833 Jett Lane","Long Beach",CA,90802,33.732761,-118.225883,true
+Barry,Richardson,84,"3378 Poe Lane","Kansas City",KS,64108,39.097058,-94.528457,true
+Sandra,Greer,80,"4367 Passaic Street",Washington,DC,20005,38.999788,-77.034793,true
+Leonora,Edwards,26,"2669 Conaway Street","North Vernon",IN,47265,39.075426,-85.566988,true
+Debra,Walker,35,"3150 Payne Street",Blountville,VA,37617,36.450025,-82.461575,true
+Rob,Fry,76,"2976 Cameron Road",Buffalo,NY,14216,43.00746,-78.935723,true
+Ronald,Rishel,45,"30 Rainbow Drive",Akron,OH,44311,41.084239,-81.438565,true
+Monique,Rowe,79,"2170 Burning Memory Lane",Philadelphia,PA,19135,40.018954,-75.141965,false
+John,Sharp,20,"2567 James Street",Buffalo,NY,14214,43.017241,-78.822721,false
+Michael,Kliebert,80,"1973 Hazelwood Avenue",Ames,IA,50010,41.975398,-93.545777,true
+Judith,Kimes,63,"4905 Chicago Avenue",Fresno,CA,93721,36.794146,-119.876746,true
+Forrest,Sanders,70,"1920 Quilly Lane",Columbus,OH,43215,39.908137,-82.985486,false
+Penny,Foster,48,"3439 Union Street",Seattle,WA,98119,47.680316,-122.404181,true
+Richard,Johnson,69,"4712 Oakridge Lane",Macon,GA,31201,32.88482,-83.571004,true
+Katrina,Francis,40,"2571 Lake Floyd Circle",Gaithersburg,MD,20877,39.077542,-77.220168,true
+Fern,Sharpe,24,"4910 Glenwood Avenue",Cleveland,OH,44115,41.542307,-81.695437,true
+Joseph,Boozer,34,"4353 Saints Alley",Tampa,FL,33610,27.937937,-82.355889,true
+Sheila,Smith,76,"2193 Valley View Drive",Chelsea,MA,02150,42.468016,-71.0172,true
+James,Allard,34,"3731 Clearview Drive",Westminster,CO,80030,39.845169,-105.100893,false
+Walter,Sullivan,65,"4392 Bell Street","New York",NY,10031,40.81998,-73.928716,true
+Ada,Barbee,25,"2924 University Drive",Chicago,IL,60605,41.914491,-87.691268,true
+Tracey,Grady,83,"4994 Gladwell Street",Dallas,TX,75207,32.717905,-96.734848,false
+Martin,McClanahan,61,"4557 Collins Street","Johnstown (Cambria)",PA,15903,40.231261,-78.950413,true
+Jeff,Bryden,75,"2173 Edgewood Avenue",Fresno,CA,93710,36.757723,-119.810988,true
+Allan,Bennett,70,"4854 Overlook Drive",Lafayette,IN,47904,40.473817,-86.78412,true
+Joseph,Tamayo,23,"2569 Stark Hollow Road",Denver,CO,80202,39.827716,-105.031474,true
+Claire,Lebo,66,"1178 Hiddenview Drive",Philadelphia,PA,19108,40.063309,-75.131735,false
+Robert,Motley,62,"3824 Broadway Avenue",Chattanooga,TN,37421,35.111383,-85.191367,true
+Henry,Castro,82,"4004 Mayo Street",Winchester,KY,40391,37.904838,-84.115445,true
+Tammy,Swanson,80,"2024 Cerullo Road",Louisville,KY,40216,38.196236,-85.853388,false
+Lauren,McCurley,59,"4807 Armory Road",Fayetteville,NC,28301,35.029538,-78.74093,true
+David,Nelson,30,"2009 Findley Avenue",Beulah,ND,58523,47.183628,-101.908542,true
+Albert,Lawrence,23,"4939 Canis Heights Drive","Los Angeles",CA,90057,34.057364,-118.329527,true
+Earl,Thomas,77,"571 Red Dog Road",Matthews,NC,28105,35.080799,-80.769913,true
+Steven,Williams,25,"2507 Camel Back Road",Moho,OK,74953,35.076282,-94.619455,true
+Calvin,Giles,65,"2663 Davis Lane",Denver,CO,80202,39.83739,-104.899796,true
+Oscar,Sequeira,29,"1299 Corpening Drive","Royal Oak",MI,48067,42.565856,-83.154245,true
+Clarence,Copeland,61,"4503 Cherry Tree Drive","Orange Park",FL,32073,30.089708,-81.849954,false
+Shirley,Johnson,74,"1751 Boggess Street",Miamisburg,OH,45342,39.696384,-84.174829,true
+Dolores,Bogdan,68,"3927 Tree Frog Lane","Kansas City",MO,64131,38.94793,-94.641483,true
+Cora,Cornelius,20,"3185 Haymond Rocks Road","Baker City",OR,97814,44.772445,-117.73111,true
+Frank,Collins,51,"4325 Stiles Street",Pittsburgh,PA,15203,40.508266,-80.078461,true
+Michelle,Aldridge,76,"485 Clarksburg Park Road",Phoenix,AZ,85003,33.404583,-112.120551,true
+Ronald,Dunn,76,"2174 Shobe Lane",Durango,CO,81301,37.53811,-107.899557,false
+Mary,Coyle,22,"2155 Sun Valley Road",Sunnyside,WA,98944,46.463477,-119.907206,false
+Donald,Lilly,50,"4883 Heather Sees Way",Tulsa,OK,74106,36.203449,-95.921455,false
+Jeremy,Craig,44,"847 Hart Street",Durham,CT,06422,41.385791,-72.651957,true
+Stella,Sawyer,75,"705 Pine Garden Lane",Gainesville,GA,30501,34.364958,-83.868422,false
+Joanna,Thomas,68,"2608 Despard Street",Atlanta,GA,30303,33.677368,-84.456056,true
+Stacey,Voll,28,"2279 Elk Avenue","Grand Rapids",MI,49503,42.902173,-85.716617,false
+Anya,Young,60,"1324 Scheuvront Drive",Denver,CO,80202,39.754953,-104.942717,true
+Nina,Dial,30,"4566 Settlers Lane","New York",NY,10016,40.702902,-74.064977,false
+Charlotte,Sung,62,"1388 Dennison Street",Modesto,CA,95351,37.563652,-121.092622,true
+Sheila,Secrist,67,"686 Sun Valley Road",Davenport,WA,99122,47.635093,-118.16663,true
+Brian,Stroman,21,"3759 Marigold Lane",Miami,FL,33179,26.02421,-80.19576,true
+Evelyn,Louie,47,"4052 Roy Alley",Denver,CO,80202,39.72476,-104.921365,true
+Gail,Rosa,65,"2849 Ashwood Drive","Council Bluffs",IA,51501,41.203764,-95.832214,true
+Brenda,Chambers,54,"616 Hershell Hollow Road",Everett,WA,98201,48.045022,-122.274813,true
+Jeffrey,Sylvester,78,"4805 Hide A Way Road",Milpitas,CA,95035,37.397694,-121.951655,true
+Terry,Jones,32,"2742 Golden Ridge Road",Albany,NY,12207,42.718811,-73.732934,true
+Cecile,Maupin,37,"3495 Forest Avenue","New York",NY,10013,40.757272,-73.986518,true
+Nancy,Torpey,32,"3937 Park Avenue",Sacramento,CA,95821,38.609167,-121.451534,true
+Jeffrey,Burton,33,"4761 Brooke Street",Houston,TX,77092,29.75233,-95.396544,false
+Irene,Bermudez,34,"515 Queens Lane",Bacheshall,VA,24541,37.340289,-78.592349,false
+Betty,Lawson,44,"3500 Glen Falls Road","Plymouth Meeting",PA,19462,40.148636,-75.288962,true
+Rachel,Bodnar,54,"4725 Lighthouse Drive",Branson,MO,65616,36.638795,-93.264122,true
+Jackie,Johnson,35,"1935 Franklee Lane","Fort Washington",PA,19034,40.044353,-75.30477,true
+Rosanna,Ridley,37,"966 Brown Bear Drive",Riverside,CA,92503,33.862466,-117.34911,false
+Tessa,Putnam,37,"4487 Twin Oaks Drive","Traverse City",MI,49684,44.748074,-85.811329,true
+Shara,Yeary,33,"770 Black Oak Hollow Road","Morgan Hill",CA,95037,37.097528,-121.631638,false
+Robert,Morales,59,"2463 Glory Road",Lawrenceburg,TN,38464,35.1822,-87.453465,true
+Della,Nichols,73,"3712 Poco Mas Drive",Dallas,TX,75202,32.786264,-96.796394,true
+Alice,Tanner,61,"166 Harper Street",Madisonville,KY,42431,37.289172,-87.418702,false
+Vickie,Huntley,55,"532 Sunset Drive","Little Rock",AR,72201,34.818694,-92.377664,true
+Crystal,Siegfried,30,"2460 Freedom Lane",Yosemite,CA,95389,37.870152,-119.512583,false
+Laurence,Wingard,30,"4950 Joy Lane",Burbank,CA,91502,34.170576,-118.366223,true
+Jonathan,Hoover,32,"3863 Sampson Street",Denver,CO,80202,39.673472,-104.90712,true
+John,Sheehan,41,"3975 Creekside Lane",Ventura,CA,93003,34.273398,-119.27349,true
+Katherine,Reed,50,"384 Cooks Mine Road",Cloudcroft,NM,88317,32.810737,-105.780452,true
+Eileen,Schwan,19,"1634 Fittro Street",Fisher,AR,72429,35.473529,-91.031135,true
+Aaron,Anderson,20,"1270 Desert Broom Court","Jersey City",NJ,07304,40.691438,-74.126536,true
+William,Duff,85,"3769 Steve Hunt Road","Miami Springs",FL,33166,25.846821,-80.30282,true
+Kenneth,Brito,42,"949 Roy Alley",Westminster,CO,80030,39.848052,-104.979425,true
+Christopher,Ryals,82,"4132 Hog Camp Road","Hickory Hills",IL,60457,41.782515,-87.929483,true
+Walter,Mabrey,77,"3394 Lena Lane",Jackson,MS,39201,32.387055,-90.12169,true
+Angela,Brown,62,"4590 Kelley Road",Gulfport,MS,39501,30.438347,-89.070815,true
+Nathan,Mendez,55,"4683 Thrash Trail","Lone Star",TX,75668,32.958609,-94.678055,true
+Lucille,Crossen,51,"1653 Bailey Drive","Cedar Rapids",IA,52401,41.964243,-91.632916,true
+Hazel,Pafford,23,"2055 Glen Street",Madisonville,KY,42431,37.378942,-87.532658,true
+Gene,Wallace,24,"397 Davisson Street",Richmond,IN,47374,39.891219,-84.853165,false
+Roberta,Rivera,38,"2020 Masonic Drive",Missoula,MT,59802,46.874713,-113.948168,true
+John,Benson,39,"3759 Fleming Street",Dothan,AL,36303,31.257884,-85.376905,true
+Stacy,Sauer,71,"1662 Rose Street",Angwin,CA,94508,38.645978,-122.46216,true
+Martha,Ford,73,"1850 Marcus Street",Huntsville,AL,35816,34.686692,-86.640901,true
+Robert,Pearson,64,"1716 College Street",Atlanta,GA,30303,33.836879,-84.42187,false
+Katherine,Slye,43,"3184 Riverside Drive",Athens,GA,30601,33.992509,-83.316951,true
+Edwin,Dipalma,68,"4615 Lakewood Drive",Englewood,NJ,07631,40.809073,-73.896878,false
+Larry,Smith,58,"2583 Philadelphia Avenue",Provo,UT,84604,40.396393,-111.552179,false
+Lila,Sandoval,45,"2947 Fleming Way",Richmond,VA,23224,37.506247,-77.522438,true
+Jane,Amundson,63,"694 Woodland Drive",Cherokee,IA,51012,42.755505,-95.48968,true
+Antoinette,McCleary,32,"3859 Honeysuckle Lane",Chehalis,WA,98596,46.571973,-122.970756,false
+Daniel,Hayes,70,"147 Martha Ellen Drive",Reno,NV,89501,39.440933,-119.872732,true
+Roberta,Harper,33,"816 Mesa Drive","North Las Vegas",NV,89032,36.252571,-115.200648,true
+Donna,Lewis,48,"377 Fulton Street",Wheeling,WV,26003,40.031891,-80.570691,true
+Elizabeth,Mullen,25,"2532 Bird Spring Lane","Sugar Land",TX,77478,29.642474,-95.698788,true
+Johnnie,Copp,70,"4692 McKinley Avenue",Denver,CO,80014,39.709905,-104.929437,true
+Lisa,Looney,81,"4131 Grey Fox Farm Road",Houston,TX,77002,29.684654,-95.417313,true
+Estelle,Wolfram,83,"4503 Edgewood Avenue",Fresno,CA,93721,36.723626,-119.884731,true
+Danny,Byfield,81,"2512 Ferrell Street","Grand Marais",MN,55604,47.922624,-90.028321,false
+William,Middleton,66,"3154 Pyramid Valley Road","Cedar Rapids",IA,52401,41.986656,-91.718351,true
+Alice,Pitts,22,"2374 County Line Road",Countryside,FL,34619,29.157472,-81.003428,true
+Brittany,Remillard,34,"4537 Nuzum Court",Buffalo,NY,14202,42.908878,-78.856888,true
+Bruce,Price,72,"4098 James Avenue","El Dorado",KS,67042,37.856599,-96.789421,true
+Francisco,Wilson,28,"4536 Timber Ridge Road",Roseville,CA,95678,38.857757,-121.369128,false
+Amanda,McLeod,81,"1004 Court Street","Maryland Heights",MO,63141,38.806109,-90.518647,true
+David,Morell,78,"3368 Berkshire Circle",Greenback,TN,37742,35.705356,-84.243983,false
+Kenneth,West,46,"3690 Glory Road",Culleoka,TN,38451,35.548828,-87.057418,true
+Barbara,Kimball,28,"2854 Laurel Lee","Kansas City",MO,64106,39.134837,-94.548737,true
+James,Gunter,75,"3847 Stutler Lane",Bedford,PA,15522,39.887857,-78.495033,true
+Daniel,Stiles,25,"2548 Timber Ridge Road",Sacramento,CA,95814,38.521264,-121.486452,true
+Misty,Cook,77,"1248 Oxford Court",Columbus,MS,39701,33.359722,-88.472675,false
+Wendy,Bryson,82,"1726 Oak Drive",Albany,NY,12207,42.670142,-73.783687,false
+James,Feeney,69,"4113 Oakwood Circle","Long Beach",CA,90802,33.666875,-118.213969,true
+Lewis,Good,69,"989 Ella Street","San Mateo",CA,94403,37.533687,-122.26466,true
+George,Schumacher,44,"2685 Flinderation Road","Orland Park",IL,60462,41.533827,-87.770331,true
+Rebecca,Mann,74,"2201 Capitol Avenue","New Castle",IN,47362,39.96392,-85.443696,true
+Diane,Boden,81,"2689 Collins Avenue",Worthington,OH,43085,40.073142,-82.954986,false
+Candice,Diggs,38,"4372 Roane Avenue","Bryans Road",MD,20616,38.716621,-77.068688,false
+Elizabeth,Hopkins,62,"3257 Ferrell Street",Bemidji,MN,56601,47.516965,-94.755492,false
+Kathleen,Blanchard,25,"1555 Freed Drive",Stockton,CA,95202,37.962608,-121.204344,true
+Joseph,Aikens,49,"3709 Gorby Lane",Hattiesburg,MS,39402,31.413456,-89.404209,true
+Lawrence,Farris,67,"4861 Village View Drive","Fort Myers",FL,33901,26.57866,-81.866079,true
+Anthony,Craig,52,"2933 Ventura Drive","Santa Clara",CA,95054,37.301043,-121.958319,true
+Kelvin,Lewis,76,"2591 Gladwell Street",Memphis,TN,38117,35.019545,-89.844143,true
+Michelle,Farrar,24,"2440 Whitetail Lane",Dallas,TX,75247,32.753274,-96.829932,true
+Harold,McDonald,39,"795 Birch Street",Carmel,IN,46032,39.972231,-86.096556,true
+Rebecca,Lundgren,43,"985 August Lane",Monroe,LA,71201,32.482597,-92.050578,true
+Kimberly,Mayer,45,"4958 Oak Street",Rome,NY,13440,43.17853,-75.503518,true
+Sandra,Locklear,28,"3740 Burke Street",Waltham,MA,02154,42.424181,-71.337976,true
+Dennis,Bowman,79,"1071 Eagle Lane",Brainerd,MN,56401,46.225315,-94.113184,true
+David,Griffin,70,"496 Pinewood Avenue",Marquette,MI,49855,46.585135,-87.483028,true
+Carol,Porter,31,"956 Rhapsody Street",Leesburg,FL,32749,28.903585,-81.829955,true
+Kimberly,Sweeney,53,"1941 Forest Drive","Falls Church",VA,22044,38.928967,-77.109082,true
+David,Kim,72,"4995 Barnes Avenue",Newtonsville,OH,45158,39.145557,-84.170846,true
+Rebecca,Denmark,46,"2370 Neuport Lane",Atlanta,GA,30303,33.773412,-84.391318,true
+Gary,White,34,"729 Tyler Avenue",Miami,FL,33176,25.661249,-80.424713,false
+Deandra,Shackelford,40,"4069 Coleman Avenue","Palm Springs",CA,92262,33.76234,-116.588381,true
+Gerald,Howe,79,"3164 Andell Road",Watertown,TN,37184,36.054898,-86.096006,true
+Mary,Haven,82,"2398 Oak Drive",Albany,NY,12207,42.679068,-73.753552,true
+Vernon,Brandenburg,50,"3876 Copperhead Road","New Britain",CT,06051,41.632299,-72.857139,true
+Linda,Martin,40,"204 Frosty Lane",Binghamton,NY,13901,42.209852,-75.829522,true
+Annette,Rich,32,"4127 Smith Street",Taunton,MA,02780,41.880286,-71.07331,true
+Carlos,Heath,66,"2189 Sycamore Fork Road","Boca Raton",FL,33487,26.398365,-80.040782,false
+James,Chase,46,"3598 Pointe Lane",Miami,FL,33169,25.992127,-80.188529,false
+Elsa,Benavides,44,"1883 Aspen Court",Boston,MA,02109,42.351616,-71.0438,false
+Lillian,Furman,31,"415 Horizon Circle",Tacoma,WA,98402,47.200678,-122.487099,true
+Norman,Jarrett,51,"3035 Peaceful Lane",Cleveland,OH,44103,41.426542,-81.699256,false
+Roberto,Gerald,54,"4912 Bagwell Avenue","Beverly Hills",FL,32665,28.846201,-82.477033,true
+Ken,Watkins,69,"2579 Deans Lane",Ossining,NY,10562,41.20344,-73.738361,true
+Gary,Sprouse,26,"1375 Collins Avenue",Columbus,OH,43213,39.996571,-82.814239,true
+Micheal,Finney,47,"458 Barfield Lane",Indianapolis,IN,46241,39.639131,-86.205365,true
+Sonya,Shockey,23,"3501 Mill Street",Clearwater,FL,34620,27.957006,-82.694481,true
+Bradley,Wright,55,"3596 Arron Smith Drive",Honolulu,HI,96813,21.389364,-157.93794,false
+Whitley,Benoit,37,"4558 John Daniel Drive",Rocheport,MO,65279,38.952233,-92.602957,false
+Brenda,Conner,69,"1589 Clifford Street",Richmond,CA,94801,37.912985,-122.3378,true
+Donald,Kennedy,34,"806 Bryan Street",Burlington,NC,27215,35.990712,-79.428483,false
+Gregory,Busch,37,"2078 Godfrey Street","St Paul",OR,97137,45.288361,-123.054008,true
+Stephen,Viviano,52,"4037 Pointe Lane","Boca Raton",FL,33487,26.425419,-80.008327,true
+Larry,Wilkerson,74,"2561 Aviation Way","Los Angeles",CA,90017,33.953493,-118.26972,true
+John,Payne,39,"2665 Stratford Park",Francisco,IN,47649,38.35493,-87.491385,true
+Kyung,Williams,44,"8 Columbia Mine Road",Charleston,WV,25314,38.375132,-81.711637,true
+David,Herzog,72,"1866 Virginia Street",Chicago,IL,60605,41.852238,-87.590249,false
+Stephanie,Smith,45,"4159 Lincoln Street",Camden,NJ,08102,39.999528,-75.170251,true
+Carlton,Laskowski,23,"4155 Briercliff Road","Rego Park Queens",NY,11734,40.676113,-73.755995,false
+Haley,Bouchard,52,"2587 Jarvis Street",Buffalo,NY,14216,42.914508,-78.783297,true
+Roberta,Dixon,74,"3343 Central Avenue","New Brunswick",NJ,08901,40.437948,-74.513915,false
+George,Gothard,42,"2860 Burton Avenue",Memphis,TN,38110,35.249967,-90.062595,true
+Danny,Mackay,62,"1429 Bridge Street",Sparks,OK,74869,35.536567,-96.763586,true
+Maria,Justus,78,"1442 Granville Lane","Jersey City",NJ,07304,40.62534,-74.177905,false
+Joe,Berube,64,"3676 Harrison Street","San Francisco",CA,94115,37.854548,-122.455257,true
+Andrew,Braddock,74,"3484 Oakdale Avenue",Arcadia,FL,33821,27.061426,-81.983313,true
+Nicolas,Eaton,50,"4970 Hillside Drive",Baldwin,LA,70514,29.835306,-91.641401,true
+Kaylene,Bennett,59,"1140 Willow Oaks Lane",Lafayette,LA,70506,30.285182,-92.022319,true
+George,Calhoun,57,"3264 Arrowood Drive",Jacksonville,FL,32216,30.350311,-81.551215,true
+Mary,McCoy,61,"3849 Oakmound Road",Chicago,IL,60657,41.993895,-87.656598,false
+David,Findley,25,"712 New Creek Road","Fort Wayne",IN,46865,41.024352,-85.102811,true
+Herbert,Tenney,49,"4073 Poling Farm Road",York,NE,68467,40.837288,-97.674391,false
+Pamela,Lewis,85,"4180 Margaret Street","Sugar Land",TX,77478,29.654161,-95.640214,true
+Amy,Beshears,80,"1811 Hilltop Drive",Summerfield,TX,79085,34.842256,-102.533741,true
+Pam,Hard,37,"2648 Goosetown Drive",Charlotte,NC,28202,35.137448,-80.835589,true
+Francis,Golightly,63,"4027 Westfall Avenue",Owatonna,MN,55060,44.140338,-93.211828,true

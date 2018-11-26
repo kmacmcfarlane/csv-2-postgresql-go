@@ -2,11 +2,11 @@ package main
 
 import (
 	"database/sql"
-	"flag"
 	"fmt"
 	"github.com/iancoleman/strcase"
 	"github.com/kmacmcfarlane/csv-2-postgresql-go/csv"
 	"github.com/kmacmcfarlane/csv-2-postgresql-go/postgresql"
+	_ "github.com/lib/pq"
 	"io"
 	"os"
 	"path/filepath"
@@ -16,25 +16,15 @@ import (
 func main() {
 
 	// Parse arguments
-	args := flag.Args()
+	args := os.Args[1:]
 
-	if len(args) != 1 || len(args) != 2 {
+	if len(args) != 2 {
 		usage()
 		os.Exit(1)
 	}
 
 	inputFile := args[0]
-
-
-	var databaseName string
-	if len(args) == 2 {
-		databaseName = args[1]
-	} else {
-		databaseName = "test"
-	}
-
-	// Connect to DB
-	connectionString := fmt.Sprintf("user=postgres dbname=%s sslmode=verify-full", databaseName)
+	connectionString := args[1]
 
 	db, err := sql.Open("postgres", connectionString)
 
@@ -46,7 +36,7 @@ func main() {
 
 	sqlWrapper := postgresql.NewSQLWrapper(db)
 
-	dbWriter := postgresql.NewWriter(sqlWrapper)
+	var dbWriter DatabaseWriter = postgresql.NewWriter(sqlWrapper)
 
 	// Parse schema of input
 	file, err := os.Open(inputFile)
@@ -65,6 +55,7 @@ func main() {
 
 	// Create table
 	_, filenameAlone := filepath.Split(file.Name())
+	filenameAlone = strings.Replace(filenameAlone, ".csv", "", 1)
 	tableName := strcase.ToSnake(filenameAlone)
 
 	err = dbWriter.CreateTable(tableName, schema)
@@ -73,33 +64,37 @@ func main() {
 		panic(fmt.Sprintf("error creating db table: %s", err.Error()))
 	}
 
-	fmt.Printf("created table '%s' in database %s", tableName, databaseName)
+	fmt.Printf("created table '%s'\n", tableName)
 
 	// Insert data to database
-	for {
+	count := 0
+	for i := 0; true; i++ {
 
 		record, err := parser.Read()
 
 		if nil != err {
 
 			if io.EOF == err {
+
+				count = i
+
 				break
 			}
 
-			fmt.Printf("error parsing record: %s", strings.Join(record, ", "))
-			fmt.Printf("error: %s", err.Error())
+			fmt.Printf("error parsing record: %s\n", strings.Join(record, ", "))
+			fmt.Printf("error: %s\n", err.Error())
 		}
 
 		err = dbWriter.Insert(record, schema, tableName)
 
 		if nil != err {
 
-			fmt.Printf("error inserting record: %s", strings.Join(record, ", "))
-			fmt.Printf("error: %s", err.Error())
+			fmt.Printf("error inserting record: %s\n", strings.Join(record, ", "))
+			fmt.Printf("error: %s\n", err.Error())
 		}
 	}
 
-	println("import ")
+	fmt.Printf("processed %d records\n", count)
 
 	os.Exit(0)
 }
@@ -107,5 +102,6 @@ func main() {
 func usage(){
 
 	println("Usage:")
-	println("csv-2-postgresql input_file.csv [database_name]")
+	println("make")
+	println("./bin/csv-2-postgresql ./input_file.csv postgres://postgres:hello@localhost/test?sslmode=disable")
 }

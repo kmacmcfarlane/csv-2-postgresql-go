@@ -19,3 +19,6 @@ build_mocks:
 
 test: build_mocks
 	ginkgo -r ./
+
+test_watch: build_mocks
+	ginkgo watch -r ./

@@ -1,6 +1,7 @@
 package postgresql_test
 
 import (
+	"fmt"
 	"github.com/kmacmcfarlane/csv-2-postgresql-go/mock"
 	"github.com/kmacmcfarlane/csv-2-postgresql-go/postgresql"
 	"github.com/kmacmcfarlane/csv-2-postgresql-go/schema"
@@ -29,13 +30,16 @@ var _ = Describe("Postgresql Database Adapter", func() {
 		Context("Small integer column", func(){
 			It("Creates a table with a single SMALLINT column", func(){
 
-				sql.On("Exec",
+				sql.
+					On("Exec", fmt.Sprintf(`DROP TABLE IF EXISTS "tablename";`)).
+					Return(new(mocks.Result), nil)
+
+				sql.
+					On("Exec",
 `CREATE TABLE "tablename" (
-_id UUID GENERATED ALWAYS AS IDENTITY,
 "total" SMALLINT NOT NULL
 );`).
-					Return(new(mocks.Result), nil).
-					Times(1)
+					Return(new(mocks.Result), nil)
 
 				schema := schema.Schema{
 					Columns: []schema.Column{
@@ -54,9 +58,12 @@ _id UUID GENERATED ALWAYS AS IDENTITY,
 		Context("int16 integer column", func(){
 			It("Creates a table with a single SMALLINT column", func(){
 
+				sql.
+					On("Exec", fmt.Sprintf(`DROP TABLE IF EXISTS "tablename";`)).
+					Return(new(mocks.Result), nil)
+
 				sql.On("Exec",
 `CREATE TABLE "tablename" (
-_id UUID GENERATED ALWAYS AS IDENTITY,
 "total" SMALLINT NOT NULL
 );`).
 					Return(new(mocks.Result), nil).
@@ -79,9 +86,12 @@ _id UUID GENERATED ALWAYS AS IDENTITY,
 		Context("int32 integer column", func(){
 			It("Creates a table with a single INTEGER column", func(){
 
+				sql.
+					On("Exec", fmt.Sprintf(`DROP TABLE IF EXISTS "tablename";`)).
+					Return(new(mocks.Result), nil)
+
 				sql.On("Exec",
 `CREATE TABLE "tablename" (
-_id UUID GENERATED ALWAYS AS IDENTITY,
 "total" INTEGER NOT NULL
 );`).
 					Return(new(mocks.Result), nil).
@@ -104,9 +114,12 @@ _id UUID GENERATED ALWAYS AS IDENTITY,
 		Context("int64 integer column", func(){
 			It("Creates a table with a single BIGINT column", func(){
 
+				sql.
+					On("Exec", fmt.Sprintf(`DROP TABLE IF EXISTS "tablename";`)).
+					Return(new(mocks.Result), nil)
+
 				sql.On("Exec",
 `CREATE TABLE "tablename" (
-_id UUID GENERATED ALWAYS AS IDENTITY,
 "total" BIGINT NOT NULL
 );`).
 					Return(new(mocks.Result), nil).
@@ -129,9 +142,12 @@ _id UUID GENERATED ALWAYS AS IDENTITY,
 		Context("float32 column", func(){
 			It("Creates a table with a single FLOAT column", func(){
 
+				sql.
+					On("Exec", fmt.Sprintf(`DROP TABLE IF EXISTS "tablename";`)).
+					Return(new(mocks.Result), nil)
+
 				sql.On("Exec",
 `CREATE TABLE "tablename" (
-_id UUID GENERATED ALWAYS AS IDENTITY,
 "total" FLOAT NOT NULL
 );`).
 					Return(new(mocks.Result), nil).
@@ -154,9 +170,12 @@ _id UUID GENERATED ALWAYS AS IDENTITY,
 		Context("float64 column", func(){
 			It("Creates a table with a single DOUBLE column", func(){
 
+				sql.
+					On("Exec", fmt.Sprintf(`DROP TABLE IF EXISTS "tablename";`)).
+					Return(new(mocks.Result), nil)
+
 				sql.On("Exec",
 `CREATE TABLE "tablename" (
-_id UUID GENERATED ALWAYS AS IDENTITY,
 "total" DOUBLE NOT NULL
 );`).
 					Return(new(mocks.Result), nil).
@@ -179,9 +198,12 @@ _id UUID GENERATED ALWAYS AS IDENTITY,
 		Context("string column", func(){
 			It("Creates a table with a single TEXT column", func(){
 
+				sql.
+					On("Exec", fmt.Sprintf(`DROP TABLE IF EXISTS "tablename";`)).
+					Return(new(mocks.Result), nil)
+
 				sql.On("Exec",
 `CREATE TABLE "tablename" (
-_id UUID GENERATED ALWAYS AS IDENTITY,
 "comments" TEXT NOT NULL
 );`).
 					Return(new(mocks.Result), nil).
@@ -204,9 +226,12 @@ _id UUID GENERATED ALWAYS AS IDENTITY,
 		Context("Multiple columns", func(){
 			It("Creates a table with INTEGER, FLOAT, and TEXT columns", func(){
 
+				sql.
+					On("Exec", fmt.Sprintf(`DROP TABLE IF EXISTS "tablename";`)).
+					Return(new(mocks.Result), nil)
+
 				sql.On("Exec",
 `CREATE TABLE "tablename" (
-_id UUID GENERATED ALWAYS AS IDENTITY,
 "count" INTEGER NOT NULL,
 "total" FLOAT NOT NULL,
 "comments" TEXT NOT NULL
@@ -241,7 +266,7 @@ _id UUID GENERATED ALWAYS AS IDENTITY,
 			It("Inserts an integer value", func(){
 
 				sql.On("Exec",
-					`INSERT INTO "tablename" VALUES ($1);`, []string{"13"}).
+					`INSERT INTO "tablename" VALUES ($1);`, "13").
 					Return(new(mocks.Result), nil).
 					Times(1)
 
@@ -263,7 +288,7 @@ _id UUID GENERATED ALWAYS AS IDENTITY,
 			It("Inserts a string value", func(){
 
 				sql.On("Exec",
-					`INSERT INTO "tablename" VALUES ($1);`, []string{"hello world"}).
+					`INSERT INTO "tablename" VALUES ($1);`, "hello world").
 					Return(new(mocks.Result), nil).
 					Times(1)
 
@@ -285,7 +310,7 @@ _id UUID GENERATED ALWAYS AS IDENTITY,
 			It("Inserts an int, float, and string value", func(){
 
 				sql.On("Exec",
-					`INSERT INTO "tablename" VALUES ($1, $2, $3);`, []string{"13", "321.123", "hello world"}).
+					`INSERT INTO "tablename" VALUES ($1, $2, $3);`, "13", "321.123", "hello world").
 					Return(new(mocks.Result), nil).
 					Times(1)
 

@@ -22,7 +22,7 @@ func NewSQLWrapper(inner *sql.DB) SQLWrapper {
 }
 
 func (s SQLWrapper) Exec(query string, args ...interface{}) (Result, error) {
-	return s.inner.Exec(query, args)
+	return s.inner.Exec(query, args...)
 }
 
 func (s SQLWrapper) Close() error {
