@@ -9,7 +9,7 @@ import (
 	"strings"
 )
 
-var _ = Describe("Schema", func() {
+var _ = Describe("Parser", func() {
 
 
 	Describe("CSVParser", func(){

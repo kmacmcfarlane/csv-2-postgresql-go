@@ -37,8 +37,6 @@ func (p *Parser) ParseSchema() (result schema.Schema, err error) {
 		return result, err
 	}
 
-	result.Headers = headers
-
 	// Get the next line to determine the type of each field
 	p.firstRecord, err = p.reader.Read() // save this first record to avoid having to re-init the reader somehow
 
