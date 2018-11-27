@@ -2,6 +2,7 @@ package postgresql
 
 import "database/sql"
 
+// SQL provides a local interface to SQL operations provided by external packages for mocking purposes
 type SQL interface {
 	Exec(query string, args ...interface{}) (Result, error)
 	Close() error
@@ -12,6 +13,7 @@ type Result interface {
 	RowsAffected() (int64, error)
 }
 
+// SQLWrapper holds a concrete sql.DB to use at runtime
 type SQLWrapper struct {
 	inner *sql.DB
 }

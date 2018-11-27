@@ -68,7 +68,7 @@ func (w Writer) Insert(values []string, schema schema.Schema, tableName string) 
 	var sb strings.Builder
 	valuesLength := len(values)
 
-	// we are creating a string for the insert template like: $1, $2, $3
+	// Generate placeholder string. e.g. $1, $2, $3
 	for i := 1; i < valuesLength + 1; i ++ {
 
 		sb.WriteRune('$')
@@ -80,6 +80,7 @@ func (w Writer) Insert(values []string, schema schema.Schema, tableName string) 
 		}
 	}
 
+	// Build the INSERT statement
 	statement := fmt.Sprintf(`INSERT INTO "%s" VALUES (%s);`, tableName, sb.String())
 
 	var valuesGeneric = make([]interface{}, len(values))
@@ -87,6 +88,7 @@ func (w Writer) Insert(values []string, schema schema.Schema, tableName string) 
 		valuesGeneric[i] = value
 	}
 
+	// Execute the statement
 	_, err = w.db.Exec(statement, valuesGeneric...)
 
 	if nil != err {
@@ -96,6 +98,7 @@ func (w Writer) Insert(values []string, schema schema.Schema, tableName string) 
 	return err
 }
 
+// getSQLColumnType converts types.BasicKind values to corresponding postgresql column types
 func (w Writer) getSQLColumnType(goType types.BasicKind) (result string) {
 
 	switch goType {
@@ -115,6 +118,8 @@ func (w Writer) getSQLColumnType(goType types.BasicKind) (result string) {
 		result = "DOUBLE"
 	case types.String:
 		result = "TEXT"
+	default:
+		panic(fmt.Sprintf("unsupported golang type: %d", goType))
 	}
 
 	return result

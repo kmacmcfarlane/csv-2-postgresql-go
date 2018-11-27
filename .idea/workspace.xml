@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="947c17d7-c566-46ee-ac3a-cdcc82e08469" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/go.imports.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/csv-2-postgresql" beforeDir="false" afterPath="$PROJECT_DIR$/bin/csv-2-postgresql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv-2-postgresql/database_writer.go" beforeDir="false" afterPath="$PROJECT_DIR$/csv-2-postgresql/database_writer.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csv-2-postgresql/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/csv-2-postgresql/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/postgresql/postgresql_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/postgresql/postgresql_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/postgresql/sql_wrapper.go" beforeDir="false" afterPath="$PROJECT_DIR$/postgresql/sql_wrapper.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/postgresql/writer.go" beforeDir="false" afterPath="$PROJECT_DIR$/postgresql/writer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schema/column.go" beforeDir="false" afterPath="$PROJECT_DIR$/schema/column.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,12 +25,12 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Makefile" value="5" />
-          <entry key="go" value="43" />
+          <entry key="go" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Go" value="43" />
+          <entry key="Go" value="46" />
           <entry key="Makefile" value="4" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
@@ -45,13 +38,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Makefile" value="591" />
-          <entry key="go" value="13992" />
+          <entry key="go" value="14305" />
           <entry key="txt" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Go" value="13992" />
+          <entry key="Go" value="14305" />
           <entry key="Makefile" value="580" />
           <entry key="PLAIN_TEXT" value="33" />
         </counts>
@@ -60,11 +53,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/postgresql/writer.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="829">
+              <caret line="116" column="23" lean-forward="true" selection-start-line="116" selection-start-column="23" selection-end-line="116" selection-end-column="23" />
               <folding>
                 <element signature="e#20#87#0" expanded="true" />
               </folding>
@@ -73,19 +66,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/go/src/runtime/panic.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="587" selection-start-line="587" selection-end-line="587" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/csv-2-postgresql/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="661">
-              <caret line="92" column="50" lean-forward="true" selection-start-line="92" selection-start-column="50" selection-end-line="92" selection-end-column="50" />
+            <state relative-caret-position="748">
+              <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
               <folding>
                 <element signature="e#14#47#0" expanded="true" />
               </folding>
@@ -94,26 +78,17 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/go/src/go/types/type.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="551">
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/postgresql/sql_wrapper.go">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/go/src/database/sql/sql.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="363">
-              <caret line="1386" selection-start-line="1386" selection-end-line="1386" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/go/src/database/sql/convert.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="827">
-              <caret line="190" column="16" selection-start-line="190" selection-start-column="16" selection-end-line="190" selection-end-column="16" />
-            </state>
-          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -138,10 +113,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/schema/column.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="116">
+              <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../stretchr/testify/mock/mock.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="417">
               <caret line="244" column="15" selection-start-line="244" selection-start-column="15" selection-end-line="244" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/schema/schema.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="58">
+              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -168,17 +161,17 @@
     <findStrings>
       <find>'tablename'</find>
       <find>CREATE TABLE &quot;</find>
-      <find>import</find>
       <find>id UUID GENERATED</find>
-      <find>crea</find>
       <find>CREATE TABLE IF NOT EXISTS</find>
+      <find>import</find>
+      <find>crea</find>
     </findStrings>
     <replaceStrings>
       <replace>&quot;tablename&quot;</replace>
       <replace>CREATE TABLEIF NOT EXISTS &quot;</replace>
       <replace>TABLE IF</replace>
-      <replace>id INTEGER GENERATED</replace>
       <replace>CREATE TABLE</replace>
+      <replace>id INTEGER GENERATED</replace>
     </replaceStrings>
   </component>
   <component name="GOROOT" path="/usr/local/go" />
@@ -190,7 +183,6 @@
       <list>
         <option value="$PROJECT_DIR$/main.go" />
         <option value="$PROJECT_DIR$/schema/parser_test.go" />
-        <option value="$PROJECT_DIR$/schema/column.go" />
         <option value="$PROJECT_DIR$/schema/schema_test.go" />
         <option value="$PROJECT_DIR$/schema/field.go" />
         <option value="$PROJECT_DIR$/schema/parser.go" />
@@ -200,10 +192,11 @@
         <option value="$PROJECT_DIR$/csv/schema_test.go" />
         <option value="$PROJECT_DIR$/postgresql/sql_wrapper.go" />
         <option value="$PROJECT_DIR$/csv-2-postgresql/database_writer.go" />
-        <option value="$PROJECT_DIR$/postgresql/writer.go" />
         <option value="$PROJECT_DIR$/Makefile" />
         <option value="$PROJECT_DIR$/postgresql/postgresql_test.go" />
         <option value="$PROJECT_DIR$/csv-2-postgresql/main.go" />
+        <option value="$PROJECT_DIR$/schema/column.go" />
+        <option value="$PROJECT_DIR$/postgresql/writer.go" />
       </list>
     </option>
   </component>
@@ -368,12 +361,12 @@
     <frame x="3840" y="75" width="2627" height="2061" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13457799" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13457799" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3294979" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3294979" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3294979" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39905858" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -405,7 +398,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/postgresql/writer.go</url>
-          <line>89</line>
+          <line>91</line>
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
@@ -455,13 +448,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/go/src/go/types/type.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1073">
-          <caret line="37" column="8" selection-start-line="37" selection-start-column="8" selection-end-line="37" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/go/src/encoding/csv/reader.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4959">
@@ -483,20 +469,6 @@
           <folding>
             <element signature="e#14#91#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/schema/column.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/schema/schema.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -585,27 +557,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Makefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../stretchr/testify/mock/mock.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="417">
           <caret line="244" column="15" selection-start-line="244" selection-start-column="15" selection-end-line="244" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/postgresql/writer.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#20#87#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -621,10 +576,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/csv-2-postgresql/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="661">
-          <caret line="92" column="50" lean-forward="true" selection-start-line="92" selection-start-column="50" selection-end-line="92" selection-end-column="50" />
+        <state relative-caret-position="748">
+          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
           <folding>
             <element signature="e#14#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schema/column.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schema/schema.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/go/types/type.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/postgresql/writer.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="829">
+          <caret line="116" column="23" lean-forward="true" selection-start-line="116" selection-start-column="23" selection-end-line="116" selection-end-column="23" />
+          <folding>
+            <element signature="e#20#87#0" expanded="true" />
           </folding>
         </state>
       </provider>
